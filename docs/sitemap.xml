@@ -1,7 +1,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     
         <url>
-            <loc>https://example.com/</loc>
+            <loc>https://cuminandpaprika.github.io/blog/</loc>
             
                 <lastmod>2020-02-02T18:04:55+11:00</lastmod>
             
@@ -15,7 +15,7 @@
         </url>
     
         <url>
-            <loc>https://example.com/2020/02/my-first-post/</loc>
+            <loc>https://cuminandpaprika.github.io/blog/2020/02/my-first-post/</loc>
             
                 <lastmod>2020-02-02T18:04:55+11:00</lastmod>
             
@@ -29,7 +29,7 @@
         </url>
     
         <url>
-            <loc>https://example.com/posts/</loc>
+            <loc>https://cuminandpaprika.github.io/blog/posts/</loc>
             
                 <lastmod>2020-02-02T18:04:55+11:00</lastmod>
             
@@ -43,7 +43,7 @@
         </url>
     
         <url>
-            <loc>https://example.com/categories/</loc>
+            <loc>https://cuminandpaprika.github.io/blog/categories/</loc>
             
             
                 <changefreq>weekly</changefreq>
@@ -55,7 +55,7 @@
         </url>
     
         <url>
-            <loc>https://example.com/tags/</loc>
+            <loc>https://cuminandpaprika.github.io/blog/tags/</loc>
             
             
                 <changefreq>weekly</changefreq>
