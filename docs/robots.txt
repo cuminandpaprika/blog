@@ -61,4 +61,4 @@ Disallow: /
 User-agent: ZoominfoBot
 Disallow: /
 
-Sitemap: https://cuminandpaprika.github.io/blog/sitemap.xml
+Sitemap: http://www.jackzheng.co/sitemap.xml
