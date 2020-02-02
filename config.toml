@@ -123,11 +123,11 @@ unsafe = true
   [params.social]                                        # Social Info in home page
     GitHub = "cuminandpaprika"
     Linkedin = "jackzco"
-    Twitter = "JackZhengCo"
+    #Twitter = "JackZhengCo"
     #Instagram = "xxxx"
     #Email = "xxxx"
-    Facebook = "xxxx"
-    Telegram = "xxxx"
+    #Facebook = "xxxx"
+    #Telegram = "xxxx"
     #Medium = "xxxx"
     #Gitlab = "xxxx"
     #Youtubelegacy = "xxxx"
@@ -182,7 +182,7 @@ unsafe = true
     #Devto = "xxxx"
 
   [params.share]                                         # Social Share Links in post page
-    enable = true
+    enable = false
     Twitter = true
     Facebook = true
     Reddit = true
