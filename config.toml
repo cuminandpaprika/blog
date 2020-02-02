@@ -1,4 +1,4 @@
-baseURL = "http://www.jackzheng.co/"
+baseURL = "https://www.jackzheng.co/"
 publishDir = "docs"
 languageCode = "en"                                      # website language
 defaultContentLanguage = "en"                            # [en, zh, ...] determines which i18n file to use
