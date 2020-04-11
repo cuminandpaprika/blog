@@ -7,18 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 02 Feb 2020 18:04:55 +1100</lastBuildDate>
+    <lastBuildDate>Sat, 11 Apr 2020 14:34:27 +1000</lastBuildDate>
     
 	<atom:link href="https://www.jackzheng.co/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>My First Post</title>
-      <link>https://www.jackzheng.co/2020/02/my-first-post/</link>
-      <pubDate>Sun, 02 Feb 2020 18:04:55 +1100</pubDate>
+      <title>Start with Three</title>
+      <link>https://www.jackzheng.co/2020/04/start-with-three/</link>
+      <pubDate>Sat, 11 Apr 2020 14:34:27 +1000</pubDate>
       
-      <guid>https://www.jackzheng.co/2020/02/my-first-post/</guid>
-      <description>This is a test post.</description>
+      <guid>https://www.jackzheng.co/2020/04/start-with-three/</guid>
+      <description>Engineering projects which require maintainable code should always start with a team of 3 or more engineers.
+Why such an arbitrary number, you might ask? Why can&amp;rsquo;t a single engineer write maintainable code? Perhaps your thoughts might lean towards peer-review for PRs, and arrive at the number 2. Two engineers should be enough to properly review.
+So why is it important for software to be maintatainable?
+Sofwtware in the real-world is only written to solve a problem for someone.</description>
     </item>
     
   </channel>
