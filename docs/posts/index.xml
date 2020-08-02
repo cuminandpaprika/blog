@@ -14,10 +14,10 @@
     
     <item>
       <title>Start with Three</title>
-      <link>https://www.jackzheng.co/2020/04/start-with-three/</link>
+      <link>https://www.jackzheng.co/start-with-three/</link>
       <pubDate>Sat, 11 Apr 2020 14:34:27 +1000</pubDate>
       
-      <guid>https://www.jackzheng.co/2020/04/start-with-three/</guid>
+      <guid>https://www.jackzheng.co/start-with-three/</guid>
       <description>Engineering projects which require maintainable code should always start with a team of 3 or more engineers.
 Why such an arbitrary number, you might ask? Why can&amp;rsquo;t a single engineer write maintainable code? Perhaps your thoughts might lean towards peer-review for PRs, and arrive at the number 2. Two engineers should be enough to properly review.
 So why is it important for software to be maintatainable?

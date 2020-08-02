@@ -4,12 +4,12 @@ languageCode = "en"                                      # website language
 defaultContentLanguage = "en"                            # [en, zh, ...] determines which i18n file to use
 title = "Jack Zheng"                                   # website title
 theme = "LoveIt"                                         # theme
-enableGitInfo = false                                    # whether to use git commit log to generate lastmod record
+enableGitInfo = true                                    # whether to use git commit log to generate lastmod record
 hasCJKLanguage = false                                   # whether to include chinese/japanese/korean
 paginate = 12                                            # default amount of posts in each pages
 enableEmoji = true                                       # whether to use emoji code
 enableRobotsTXT = true                                   # whether to use robots.txt
-googleAnalytics = ""                                     # [UA-XXXXXXXX-X] google analytics code
+googleAnalytics = "UA-174221264-1"                                     # [UA-XXXXXXXX-X] google analytics code
 disqusShortname = ""                             # Disqus shortname to use Disqus in posts
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
                                                          # copyright description used only for seo schema
@@ -34,7 +34,7 @@ unsafe = true
   priority = 0.5
 
 [Permalinks]                                          #### Permalinks Info (https://gohugo.io/content-management/urls/#permalinks)
-  posts = ":year/:month/:filename"
+  posts = ":filename"
 
 [menu]                                                #### Menu Info
   [[menu.main]]
@@ -61,21 +61,15 @@ unsafe = true
     url = "about"
     weight = 4
 
-  [[menu.main]]
-    identifier = "zh"
-    name = '<i class="fas fa-language fa-fw"></i>'
-    url = "https://hugo-loveit-zh.netlify.com"
-    weight = 5
-
 [params]
   version = "5.x"                                        # LoveIt theme version
-  description = "LoveIt Theme Demo"                      # site description
-  keywords = ["XXXX", "Theme", "Hugo"]                   # site keywords
+  description = "Jack Zheng is a technologist, engineer and problem solver."                      # site description
+  keywords = ["Jack", "Zheng", "Software", "Technology", "Development"]                   # site keywords
 
                                                       #### Home Page Info
   home_mode = "post"                                     # [post, other] home mode
   home_paginate = 6                                      # special amount of posts in each home post page
-  avatar = "images/avatar.png"                           # URL of avatar shown in home page
+  avatar = "/static/images/avatar.jpeg"                           # URL of avatar shown in home page
   subtitle = "Technologist. Problem Solver. Coffee Enthusiast."  # subtitle shown in home page
 
   socialShare = false                                     # whether to show social share links in post page
@@ -85,7 +79,7 @@ unsafe = true
   icp = ''                                               # ICP info only in China (HTML format is allowed)
   license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
                                                          # license info (HTML format is allowed)
-  gitRepo = ""                                           # public git repo url to link lastmod git commit only then enableGitInfo is true
+  gitRepo = "https://github.com/cuminandpaprika/blog"                                           # public git repo url to link lastmod git commit only then enableGitInfo is true
 
   linkToMarkdown = true                                  # whether to show link to Raw Markdown content of the post
 
