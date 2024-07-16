@@ -35,7 +35,7 @@ Programming languages constrain an engineer in how they can think about a proble
 So what slows down engineering?
 - Not having a goal
   - We need a north star for teams to align around, a purpose. This means that all team members should be able to point to a single source of truth for what the goals are, and why we agreed to take certain approaches. 
-  - Most importantly, this should include things we'e decided not to solve. The best way to achieve a goal is to only do the things that MUST be done to ensure it's actualization.
+  - Most importantly, this should include things we've decided not to solve. The best way to achieve a goal is to only do the things that MUST be done to ensure it's actualization.
 - Solving problems that don't need to be solved
   - The best way to 
 - Alignment
