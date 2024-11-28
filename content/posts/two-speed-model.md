@@ -1,6 +1,7 @@
 ---
-title: "Two Speed Model for Software Engineering"
+title: "Shifting Gears in Software Development"
 date: 2024-01-11T18:15:31+3:00
+tags: ["proof-of-concept"]
 draft: true
 ---
 

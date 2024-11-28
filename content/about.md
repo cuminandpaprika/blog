@@ -3,16 +3,16 @@ title: "About"
 ---
 <img src="/static/images/avatar.jpeg" borderRadius="50%" width="200"/>
 
-Hey, I'm Jack.
+Hey, I'm Jack, a Software Engineer.
 
 <br/>
 
-Currently building tools to transform software development at ANZ, Melbourne Australia. Alumni of University of Melbourne.
+I'm currently building fraud detection systems at [Mozn](https://www.mozn.sa/) in Riyadh, Saudi Arabia. Alumni of University of Melbourne.
 
 <br/>
 
-Fascinated by craftsmanship, design, cooking, late-night philosophy and cloudy things. Looking to find the perfect cup of coffee:coffee:.
+I'm fascinated by software craftsmanship, design, cooking, late-night philosophy and cloudy things. Looking to find the perfect cup of coffee:coffee:.
 
 <br/>
 
-On a journey to learn, experience the universe and pursue deep work to create a better version of the world.
+On a journey to learn new things, have fun and make the world better one day at a time.
