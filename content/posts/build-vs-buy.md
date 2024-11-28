@@ -1,9 +1,8 @@
 ---
-title: "Choosing technologies"
+title: "Build vs Buy"
 description: "Build vs Buy? Buy then Build?"
-date: 2024-01-11T18:15:31+3:00
-categories: ['Category A', 'Category B']
-tags: ["proof-of-concept"]
+date: 2024-11-28T17:54:44+03:00
+categories: ['software']
 draft: true
 ---
 
