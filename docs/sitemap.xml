@@ -3,7 +3,7 @@
         <url>
             <loc>https://www.jackzheng.co/</loc>
             
-                <lastmod>2020-04-11T15:26:14+10:00</lastmod>
+                <lastmod>2024-11-28T18:02:23+03:00</lastmod>
             
             
                 <changefreq>weekly</changefreq>
@@ -45,7 +45,7 @@
         <url>
             <loc>https://www.jackzheng.co/about/</loc>
             
-                <lastmod>2020-08-02T18:19:36+10:00</lastmod>
+                <lastmod>2024-11-28T17:39:29+03:00</lastmod>
             
             
                 <changefreq>weekly</changefreq>
@@ -58,6 +58,50 @@
     
         <url>
             <loc>https://www.jackzheng.co/categories/</loc>
+            
+                <lastmod>2024-11-28T18:02:23+03:00</lastmod>
+            
+            
+                <changefreq>weekly</changefreq>
+            
+            
+                <priority>0.5</priority>
+            
+            
+        </url>
+    
+        <url>
+            <loc>https://www.jackzheng.co/categories/</loc>
+            
+                <lastmod>2024-11-28T18:02:23+03:00</lastmod>
+            
+            
+                <changefreq>weekly</changefreq>
+            
+            
+                <priority>0.5</priority>
+            
+            
+        </url>
+    
+        <url>
+            <loc>https://www.jackzheng.co/categories/software/</loc>
+            
+                <lastmod>2024-11-28T18:02:23+03:00</lastmod>
+            
+            
+                <changefreq>weekly</changefreq>
+            
+            
+                <priority>0.5</priority>
+            
+            
+        </url>
+    
+        <url>
+            <loc>https://www.jackzheng.co/categories/software/</loc>
+            
+                <lastmod>2024-11-28T18:02:23+03:00</lastmod>
             
             
                 <changefreq>weekly</changefreq>
