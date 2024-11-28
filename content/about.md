@@ -11,8 +11,13 @@ I'm currently building fraud detection systems at [Mozn](https://www.mozn.sa/) i
 
 <br/>
 
-I'm fascinated by software craftsmanship, design, cooking, late-night philosophy and cloudy things. Looking to find the perfect cup of coffee:coffee:.
+I’ve been building things ever since I can remember, from Lego Blocks as a 5 year old to Cities on Sim City 4 and most recently I’ve been building things with code. Mostly backend, mostly Go. 
 
 <br/>
 
-On a journey to learn new things, have fun and make the world better one day at a time.
+Throughout my life, I’ve built many things that bring me satisfaction, from helping launch a Cube Sat at Melbourne Space Program to mission-critical onboarding systems at Australia’s second largest bank.
+
+<br/>
+
+I'm fascinated by software craftsmanship, design, cooking, late-night philosophy and cloudy things. Looking to find the perfect cup of coffee:coffee:.
+
