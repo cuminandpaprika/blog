@@ -4,7 +4,7 @@ description: "Build vs Buy? Buy then Build?"
 date: 2024-01-11T18:15:31+3:00
 categories: ['Category A', 'Category B']
 tags: ["proof-of-concept"]
-draft: false
+draft: true
 ---
 
 ## Setting the scene
