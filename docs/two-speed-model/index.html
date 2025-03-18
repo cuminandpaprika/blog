@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>From MVP to V1: Adjusting Development Strategies | Jack Zheng</title><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noodp" />
+<meta name="Description" content="Jack Zheng is a technologist, engineer and problem solver.">
+<link rel="next" href="https://www.jackzheng.co/start-with-three/" />
+<link rel="canonical" href="https://www.jackzheng.co/two-speed-model/" />
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="From MVP to V1: Adjusting Development Strategies"/>
+<meta name="twitter:description" content="How should software be built? It depends.
+There isn&rsquo;t a single &ldquo;correct&rdquo; way to build software. An early stage startup might focus on speed over maintainability, because they&rsquo;re looking to find Product-Market Fit (PMF). A scale-up which has found PMF might focus instead on maintaining engineering velocity. Both are solutions to two completely different equations.
+If we broadly group development &ldquo;modes&rdquo; into two buckets we can come up with the following buckets:"/>
+<script type="application/ld+json">
+    {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "From MVP to V1: Adjusting Development Strategies",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https:\/\/www.jackzheng.co\/two-speed-model\/"
+    },
+    
+        "image": {
+            "@type": "ImageObject",
+            "url": "https:\/\/www.jackzheng.co\/cover.png",
+            "width":  800 ,
+            "height":  600 
+        },
+    
+    "genre": "posts",
+    
+        "keywords": "proof-of-concept",
+    
+    "wordcount":  554 ,
+    "url": "https:\/\/www.jackzheng.co\/two-speed-model\/",
+    
+    
+        "dateModified": "2025-03-18T07:56:15\u002b03:00",
+    
+    
+        "license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.",
+    
+    
+        "publisher": {
+            "@type": "Organization",
+            "name": "XXXX",
+            "logo": {
+            "@type": "ImageObject",
+            "url": "https:\/\/www.jackzheng.co\/logo.png",
+            "width":  127 ,
+            "height":  40 
+            }
+        },
+    
+    
+    "description": ""
+    }
+    </script>
+<link rel="stylesheet" href="/css/style.min.css">
+<link rel="stylesheet" href="/css/lib/fontawesome-free/all.min.min.css">
+
+<link rel="stylesheet" href="/css/lib/animate/animate.min.min.css">
+
+
+    </head>
+    <body>
+        <script>
+            window.isDark = (window.localStorage && window.localStorage.getItem('theme')) === 'dark';
+            window.isDark && document.body.classList.add('dark-theme');
+        </script>
+        <div class="wrapper">
+            <nav class="navbar">
+    <div class="navbar-container">
+        <div class="navbar-header animated bounceIn">
+            <a href="https://www.jackzheng.co/">Jack Zheng</a>
+        </div>
+        <div class="navbar-menu">
+            
+            
+                <a class="menu-item" href="https://www.jackzheng.co/posts" title="">Posts</a>
+            
+                <a class="menu-item" href="https://www.jackzheng.co/tags" title="">Tags</a>
+            
+                <a class="menu-item" href="https://www.jackzheng.co/categories" title="">Categories</a>
+            
+                <a class="menu-item" href="https://www.jackzheng.co/about" title="">About</a>
+            
+            <a href="javascript:void(0);" class="theme-switch"><i class="fas fa-adjust fa-rotate-180 fa-fw" title="Switch Theme"></i></a>
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile">
+     <div class="navbar-container">
+        <div class="navbar-header">
+            <div class="navbar-header-title animated bounceIn">
+                <a href="https://www.jackzheng.co/">Jack Zheng</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="navbar-menu" id="mobile-menu">
+            
+            
+                <a class="menu-item" href="https://www.jackzheng.co/posts" title="">Posts</a>
+            
+                <a class="menu-item" href="https://www.jackzheng.co/tags" title="">Tags</a>
+            
+                <a class="menu-item" href="https://www.jackzheng.co/categories" title="">Categories</a>
+            
+                <a class="menu-item" href="https://www.jackzheng.co/about" title="">About</a>
+            
+            <a href="javascript:void(0);" class="theme-switch"><i class="fas fa-adjust fa-rotate-180 fa-fw"></i></a>
+        </div>
+    </div>
+</nav><main class="main">
+                <div class="container">
+                    
+    
+    
+    
+
+    <article class="post-warp">
+        <h1 class="post-title animated flipInX">From MVP to V1: Adjusting Development Strategies</h1>
+
+        <div class="post-meta">
+            <div class="post-meta-main">
+                <a class="author" href="https://www.jackzheng.co/" rel="author"><i class="fas fa-user-circle fa-fw"></i>Jack Zheng&nbsp;</a>
+                
+            </div>
+            <div class="post-meta-other">
+                <i class="far fa-calendar-alt fa-fw"></i><time datetime=0001-01-01>0001-01-01</time>&nbsp;
+                <i class="fas fa-pencil-alt fa-fw"></i>about 554 words&nbsp;
+                <i class="far fa-clock fa-fw"></i>3 min&nbsp;</div>
+        </div>
+
+        
+
+        
+
+        <div class="post-content">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <a class="post-dummy-target" id="how-should-software-be-built"></a><h3>How should software be built?</h3>
+<p>It depends.</p>
+<p>There isn&rsquo;t a single &ldquo;correct&rdquo; way to build software. An early stage startup might focus on speed over maintainability, because they&rsquo;re looking to find Product-Market Fit (PMF). A scale-up which has found PMF might focus instead on maintaining engineering velocity. Both are solutions to two completely different equations.</p>
+<p>If we broadly group development &ldquo;modes&rdquo; into two buckets we can come up with the following buckets:</p>
+<ul>
+<li>MVP</li>
+<li>V1</li>
+</ul>
+<p>MVP is everything before Product-Market Fit. V1 is after Product-Market Fit. Let&rsquo;s define what Product-Market Fit is.</p>
+<a class="post-dummy-target" id="product-market-fit-pmf"></a><h3>Product Market Fit (PMF)</h3>
+<p>According to <a href="https://en.wikipedia.org/wiki/Product-market_fit">Wikipedia</a>:</p>
+<blockquote>
+<p>Product-market fit, also known as product/market fit, is the degree to which a product satisfies a strong market demand.</p>
+</blockquote>
+<p>To rephrase this, it means you&rsquo;ve proven that customers will pay for what you are building.</p>
+<p><a href="https://stripe.com/en-sg/resources/more/what-is-product-market-fit-what-startups-need-to-know">How to identify if you product has found Product-Market Fit</a> is beyond the scope of this post and is best left up to the product team to debate.</p>
+<a class="post-dummy-target" id="pre-product-market-fit"></a><h3>Pre-product market fit</h3>
+<p>At this point, speed is everything. There are a million and one failed startups that have not found PMF. The first objective of a startup is to achieve product-market fit.</p>
+<p>What do you not do here?</p>
+<ul>
+<li>Design highly scalable architecture</li>
+<li>Automate repetitive processes</li>
+<li>Refactor and clean up tech debt</li>
+<li>Write unit tests to make it easy to refactor and extend functionality</li>
+<li>Write code that is easy to unit test</li>
+</ul>
+<p>A few caveats:</p>
+<ul>
+<li>If it&rsquo;s faster to write a unit test to verify some complex logic is correct, it&rsquo;s okay to do so.</li>
+<li>If you write any tests at all, integration tests and end-to-end tests have the highest return on investment here.</li>
+</ul>
+<p>The goal is to validate your product hypothesis as quickly as possible. If you fail fast and fail cheaply, this means you have more opportunities to pivot and try different ideas.</p>
+<a class="post-dummy-target" id="post-product-market-fit"></a><h3>Post Product Market Fit</h3>
+<p>Congrats, you&rsquo;ve found PMF. Customers are banging down your door to buy your product. Now you can build everything for real. You know the crappy MVP that&rsquo;s held together by scotch tape and hacky workarounds? You can now build your V1 the &ldquo;right way&rdquo;. This doesn&rsquo;t mean over-engineering the living daylight out of your system. It means selecting the minimal set of practices which allow you to maintain your engineering quality and velocity.</p>
+<p>Often companies will build on top of what already exists and evolve the MVP. This creates competing incentives because when building an MVP, any corner that can be cut should be cut. If you know you&rsquo;ll throw away the MVP, it removes any unnecessary constraints and also simplifies the solution space for the MVP and the V1.</p>
+<p>A few considerations:</p>
+<ul>
+<li>In the process of building an MVP, you will have discovered better abstractions and models of the problem space.</li>
+<li>For a V1, you can start to think about how to architect your system and development process to increase development velocity and feature quality.</li>
+</ul>
+<a class="post-dummy-target" id="conclusion"></a><h3>Conclusion</h3>
+<p>Hopefully, I&rsquo;ve helped clarify that there&rsquo;s no single &ldquo;correct&rdquo; way to build software. What&rsquo;s right for one team might be completely wrong for another. The optimal approach depends on the context around which the software is written. By recognizing that each company and team is a different equation to solve for, you can tailor your software-engineering practices to suit the unique constraints and goals of each organization.</p>
+
+        </div>
+
+        <div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>This article is updated with 2025-03-18</span>
+            </div>
+            <div class="post-info-license">
+                
+            </div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md">
+                
+                    
+                        <span><a class="link-to-markdown" href="https://www.jackzheng.co/two-speed-model/index.md" target="_blank"></a></span>
+                    
+                
+            </div>
+            <div class="post-info-share">
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section>
+            
+                
+                    <span class="tag">
+                        <a href="https://www.jackzheng.co/tags/proof-of-concept/"><i class="fas fa-tag fa-fw"></i>proof-of-concept</a>
+                    </span>
+                
+            
+        </section>
+        <section>
+            <span><a href="javascript:window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="https://www.jackzheng.co/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+        
+        
+            <a href="https://www.jackzheng.co/start-with-three/" class="next" rel="next" title="Start with Three">Start with Three<i class="fas fa-angle-right fa-fw"></i></a>
+        
+    </div>
+</div>
+
+        <div class="post-comment">
+            
+            
+
+            
+        </div>
+    </article></div>
+            </main>
+            <footer class="footer">
+    <div class="copyright">
+        <div class="copyright-line">
+            Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreffer">Hugo</a>&nbsp;|&nbsp;Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="external nofollow noopener noreffer">LoveIt<i class="far fa-heart fa-fw"></i></a>
+        </div>
+        <div class="copyright-line">
+            <i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2020 - 2025</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://www.jackzheng.co/">Jack Zheng</a></span><span class="license">&nbsp;|&nbsp;<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+    </div>
+</footer>
+
+
+    
+    
+
+
+
+
+    
+    
+
+
+
+
+    
+    
+
+
+
+
+
+    
+    
+
+
+
+    
+    
+
+
+
+    
+    
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+    
+    
+
+
+
+    
+    
+
+
+
+
+
+    
+    
+
+
+
+
+    
+    
+
+
+
+
+    
+    
+
+
+
+    
+    
+
+
+
+
+
+    
+    
+
+
+<script src="/js/lib/jquery/jquery.slim.min.min.js"></script>
+<script src="/js/lib/lazysizes/lazysizes.min.min.js"></script>
+<script src="/js/lib/smooth-scroll/smooth-scroll.polyfills.min.min.js"></script><script>window.scroll = new SmoothScroll('[data-scroll]', {speed: 300, speedAsDuration: true});</script>
+
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+
+
+<script src="/js/blog.min.js"></script>
+
+
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RQNN5TQ173"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-RQNN5TQ173', { 'anonymize_ip': true });
+}
+</script>
+
+    
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-RQNN5TQ173', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</div>
+        <a href="#" class="dynamic-to-top" id="dynamic-to-top" data-scroll><span>&nbsp;</span></a>
+    </body>
+</html>

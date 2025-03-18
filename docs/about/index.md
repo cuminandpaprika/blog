@@ -14,9 +14,9 @@ I’ve been building things ever since I can remember, from Lego Blocks as a 5 y
 
 <br/>
 
-Throughout my life, I’ve built many things that bring me satisfaction, from helping launch a Cube Sat at Melbourne Space Program to mission-critical onboarding systems at Australia’s second largest bank.
+Throughout my life, I’ve built many things that bring me satisfaction, from helping launch a Cube Sat at Melbourne Space Program to mission-critical onboarding systems at Australia’s largest bank.
 
 <br/>
 
-I'm fascinated by software craftsmanship, design, cooking, late-night philosophy and cloudy things. Looking to find the perfect cup of coffee:coffee:.
+I'm fascinated by software craftsmanship, design, cooking, engineering philosophy and cloudy things. Looking to find the perfect cup of coffee:coffee:.
 

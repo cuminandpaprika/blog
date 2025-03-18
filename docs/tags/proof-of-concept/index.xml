@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Jack Zheng</title>
-    <link>https://www.jackzheng.co/posts/</link>
-    <description>Recent content in Posts on Jack Zheng</description>
+    <title>proof-of-concept on Jack Zheng</title>
+    <link>https://www.jackzheng.co/tags/proof-of-concept/</link>
+    <description>Recent content in proof-of-concept on Jack Zheng</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 18 Mar 2025 07:56:15 +0300</lastBuildDate>
-    <atom:link href="https://www.jackzheng.co/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Start with Three</title>
-      <link>https://www.jackzheng.co/start-with-three/</link>
-      <pubDate>Sat, 11 Apr 2020 14:34:27 +1000</pubDate>
-      <guid>https://www.jackzheng.co/start-with-three/</guid>
-      <description>Engineering projects that require maintainable code should always start with a team of 3 or more engineers.&#xA;Why such an arbitrary number, you might ask? Why can&amp;rsquo;t a single engineer write maintainable code? Perhaps your thoughts might lean towards peer-review for PRs and arrive at the number 2. Two engineers should be enough to properly review.&#xA;So why is it important for software to be maintainable?&#xA;Software in the real world is only written to solve a problem for someone.</description>
-    </item>
+    <atom:link href="https://www.jackzheng.co/tags/proof-of-concept/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>From MVP to V1: Adjusting Development Strategies</title>
       <link>https://www.jackzheng.co/two-speed-model/</link>
