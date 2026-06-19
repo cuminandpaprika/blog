@@ -1,57 +1,36 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Jack Zheng on Jack Zheng</title>
+        <title>Jack Zheng</title>
         <link>https://www.jackzheng.co/</link>
-        <description>Recent content in Jack Zheng on Jack Zheng</description>
-        <generator>Hugo -- gohugo.io</generator>
-        
-            <language>en</language>
-        
-        
-        
-            <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-        
-        
-            <lastBuildDate>Thu, 11 Jan 2024 18:15:31 +0300</lastBuildDate>
-        
-        <atom:link href="https://www.jackzheng.co/" rel="self" type="application/rss+xml" />
-        
-            <item>
-                <title>Posts</title>
-                <link>https://www.jackzheng.co/posts/</link>
-                <pubDate>Thu, 11 Jan 2024 18:15:31 +0300</pubDate>
-                
-                <guid>https://www.jackzheng.co/posts/</guid>
-                <description></description>
-            </item>
-        
-            <item>
-                <title>About</title>
-                <link>https://www.jackzheng.co/about/</link>
-                <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-                
-                <guid>https://www.jackzheng.co/about/</guid>
-                <description>&lt;img src=&#34;https://www.jackzheng.co/static/images/avatar.jpeg&#34; borderRadius=&#34;50%&#34; width=&#34;200&#34;/&gt;
-&lt;p&gt;Hey, I&amp;rsquo;m Jack, a Software Engineer.&lt;/p&gt;
-&lt;br/&gt;
-&lt;p&gt;I&amp;rsquo;m currently building fraud detection systems at &lt;a href=&#34;https://www.mozn.sa/&#34;&gt;Mozn&lt;/a&gt; in Riyadh, Saudi Arabia. Alumni of University of Melbourne.&lt;/p&gt;
-&lt;br/&gt;
-&lt;p&gt;I’ve been building things ever since I can remember, from Lego Blocks as a 5 year old to Cities on Sim City 4 and most recently I’ve been building things with code. Mostly backend, mostly Go.&lt;/p&gt;
-&lt;br/&gt;
-&lt;p&gt;Throughout my life, I’ve built many things that bring me satisfaction, from helping launch a Cube Sat at Melbourne Space Program to mission-critical onboarding systems at Australia’s largest bank.&lt;/p&gt;
-&lt;br/&gt;
-&lt;p&gt;I&amp;rsquo;m fascinated by software craftsmanship, design, cooking, engineering philosophy and cloudy things. Looking to find the perfect cup of coffee&amp;#x2615;.&lt;/p&gt;
-</description>
-            </item>
-        
-            <item>
-                <title>Categories</title>
-                <link>https://www.jackzheng.co/categories/</link>
-                <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-                
-                <guid>https://www.jackzheng.co/categories/</guid>
-                <description></description>
-            </item>
-        
-    </channel>
+        <description>Jack Zheng is a technologist, engineer and problem solver.</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 11 Jan 2024 18:15:31 &#43;0300</lastBuildDate>
+            <atom:link href="https://www.jackzheng.co/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>From MVP to V1: Adjusting Development Strategies</title>
+    <link>https://www.jackzheng.co/two-speed-model/</link>
+    <pubDate>Thu, 11 Jan 2024 18:15:31 &#43;0300</pubDate>
+    <author>xxxx</author>
+    <guid>https://www.jackzheng.co/two-speed-model/</guid>
+    <description><![CDATA[<h3 id="how-should-software-be-built">How should software be built?</h3>
+<p>It depends.</p>
+<p>There isn&rsquo;t a single &ldquo;correct&rdquo; way to build software. An early stage startup might focus on speed over maintainability, because they&rsquo;re looking to find Product-Market Fit (PMF). A scale-up which has found PMF might focus instead on maintaining engineering velocity. Both are solutions to two completely different equations.</p>
+<p>If we broadly group development &ldquo;modes&rdquo; into two buckets, we get the following:</p>
+<ul>
+<li>MVP</li>
+<li>V1</li>
+</ul>
+<p>MVP is everything before Product-Market Fit. V1 is after Product-Market Fit. Let&rsquo;s define what Product-Market Fit is.</p>]]></description>
+</item>
+<item>
+    <title>Start with Three</title>
+    <link>https://www.jackzheng.co/start-with-three/</link>
+    <pubDate>Sat, 11 Apr 2020 14:34:27 &#43;1000</pubDate>
+    <author>xxxx</author>
+    <guid>https://www.jackzheng.co/start-with-three/</guid>
+    <description><![CDATA[<p>Engineering projects that require maintainable code should always start with a team of 3 or more engineers.</p>
+<p>Why such an arbitrary number, you might ask? Why can&rsquo;t a single engineer write maintainable code? Perhaps your thoughts might lean towards peer-review for PRs and arrive at the number 2. Two engineers should be enough to properly review.</p>
+<p>So why is it important for software to be maintainable?</p>
+<p>Software in the real world is only written to solve a problem for someone. But it doesn&rsquo;t solve that problem fully (that&rsquo;s a discussion for another post). It only represents a solution to a problem <strong>at that point in time</strong>. Unfortunately, we don&rsquo;t live in a static world, so problems are always evolving. As the problem changes and new problems arise, the software must be modified or updated to meet these altered conditions. Or else they must be retired and decommissioned, as they are no longer <em>fit for purpose</em>.</p>]]></description>
+</item>
+</channel>
 </rss>

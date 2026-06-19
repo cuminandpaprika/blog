@@ -20,3 +20,4 @@ Throughout my life, I’ve built many things that bring me satisfaction, from he
 
 I'm fascinated by software craftsmanship, design, cooking, engineering philosophy and cloudy things. Looking to find the perfect cup of coffee:coffee:.
 
+

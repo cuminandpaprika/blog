@@ -34,7 +34,7 @@ unsafe = true
   priority = 0.5
 
 [Permalinks]                                          #### Permalinks Info (https://gohugo.io/content-management/urls/#permalinks)
-  posts = ":filename"
+  posts = ":contentbasename"
 
 [menu]                                                #### Menu Info
   [[menu.main]]

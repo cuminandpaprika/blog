@@ -1,0 +1,2 @@
+{{- $id := .Get 0 | default (.Get "id") -}}
+{{- if $id -}}<blockquote><a href="https://x.com/i/status/{{ $id }}">View on X</a></blockquote>{{- end -}}
