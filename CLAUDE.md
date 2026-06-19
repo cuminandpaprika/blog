@@ -14,7 +14,7 @@ hugo          # builds into docs/
 hugo server   # local dev server with live reload
 ```
 
-A pre-push hook automatically runs `hugo` before every push. If `docs/` has changed, it commits the rebuild automatically so the deployed site always stays in sync.
+A pre-push hook automatically runs `hugo` before every push. If `docs/` has changed, it amends the HEAD commit to include the rebuild, so the deployed site always stays in sync in a single push.
 
 ## Content
 
