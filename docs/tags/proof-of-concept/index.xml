@@ -7,13 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Fri, 19 Jun 2026 03:32:31 +0300</lastBuildDate>
     <atom:link href="https://www.jackzheng.co/tags/proof-of-concept/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>From MVP to V1: Adjusting Development Strategies</title>
       <link>https://www.jackzheng.co/two-speed-model/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 11 Jan 2024 18:15:31 +0300</pubDate>
       <guid>https://www.jackzheng.co/two-speed-model/</guid>
-      <description>How should software be built? It depends.&#xA;There isn&amp;rsquo;t a single &amp;ldquo;correct&amp;rdquo; way to build software. An early stage startup might focus on speed over maintainability, because they&amp;rsquo;re looking to find Product-Market Fit (PMF). A scale-up which has found PMF might focus instead on maintaining engineering velocity. Both are solutions to two completely different equations.&#xA;If we broadly group development &amp;ldquo;modes&amp;rdquo; into two buckets we can come up with the following buckets:</description>
+      <description>How should software be built? It depends.&#xA;There isn&amp;rsquo;t a single &amp;ldquo;correct&amp;rdquo; way to build software. An early stage startup might focus on speed over maintainability, because they&amp;rsquo;re looking to find Product-Market Fit (PMF). A scale-up which has found PMF might focus instead on maintaining engineering velocity. Both are solutions to two completely different equations.&#xA;If we broadly group development &amp;ldquo;modes&amp;rdquo; into two buckets, we get the following:&#xA;MVP V1 MVP is everything before Product-Market Fit.</description>
     </item>
   </channel>
 </rss>
