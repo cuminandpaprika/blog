@@ -63,32 +63,39 @@ unsafe = true
 
 [params]
   version = "5.x"                                        # LoveIt theme version
-  description = "Jack Zheng is a technologist, engineer and problem solver."                      # site description
-  keywords = ["Jack", "Zheng", "Software", "Technology", "Development"]                   # site keywords
-
-                                                      #### Home Page Info
-  home_mode = "post"                                     # [post, other] home mode
-  home_paginate = 6                                      # special amount of posts in each home post page
-  avatar = "/static/images/avatar.jpeg"                           # URL of avatar shown in home page
-  subtitle = "Hi, I'm Jack. I like to build things"  # subtitle shown in home page
-
-  socialShare = false                                     # whether to show social share links in post page
-
-                                                      #### Footer CopyRight Info
-  since = 2020                                           # Site creation time
-  icp = ''                                               # ICP info only in China (HTML format is allowed)
-  license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
-                                                         # license info (HTML format is allowed)
-  gitRepo = "https://github.com/cuminandpaprika/blog"                                           # public git repo url to link lastmod git commit only then enableGitInfo is true
-
-  linkToMarkdown = true                                  # whether to show link to Raw Markdown content of the post
-
-                                                      #### site verification code for Google/Bing/Yandex/Pinterest/Baidu
+  description = "Jack Zheng is a technologist, engineer and problem solver."
+  keywords = ["Jack", "Zheng", "Software", "Technology", "Development"]
+  home_mode = "post"
+  home_paginate = 6
+  avatar = "/static/images/avatar.jpeg"
+  subtitle = "Hi, I'm Jack. I like to build things"
+  socialShare = false
+  since = 2020
+  icp = ''
+  license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+  gitRepo = "https://github.com/cuminandpaprika/blog"
+  linkToMarkdown = true
   google_verification = ""
   bing_verification = ""
   yandex_verification = ""
   pinterest_verification = ""
   baidu_verification = ""
+
+  [params.author]
+    name = "Jack Zheng"
+    email = ""
+    link = ""
+
+  [params.header]
+    [params.header.title]
+      name = "Jack Zheng"
+
+  [params.app]
+    title = "Jack Zheng"
+
+  [params.seo]
+    [params.seo.publisher]
+      name = "Jack Zheng"
 
   [params.cdn]                                       #### CSS and JS Files CDN
     fontawesome_free_css = ''                           # for example '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.10.1/css/all.min.css" integrity="sha256-fdcFNFiBMrNfWL6OcAGQz6jDgNTRxnrLEd4vJYFWScE=" crossorigin="anonymous">'
