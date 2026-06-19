@@ -7,7 +7,7 @@
     <title>From MVP to V1: Adjusting Development Strategies</title>
     <link>https://www.jackzheng.co/two-speed-model/</link>
     <pubDate>Thu, 11 Jan 2024 18:15:31 &#43;0300</pubDate>
-    <author>xxxx</author>
+    <author>Jack Zheng</author>
     <guid>https://www.jackzheng.co/two-speed-model/</guid>
     <description><![CDATA[<h3 id="how-should-software-be-built">How should software be built?</h3>
 <p>It depends.</p>
@@ -23,7 +23,7 @@
     <title>Start with Three</title>
     <link>https://www.jackzheng.co/start-with-three/</link>
     <pubDate>Sat, 11 Apr 2020 14:34:27 &#43;1000</pubDate>
-    <author>xxxx</author>
+    <author>Jack Zheng</author>
     <guid>https://www.jackzheng.co/start-with-three/</guid>
     <description><![CDATA[<p>Engineering projects that require maintainable code should always start with a team of 3 or more engineers.</p>
 <p>Why such an arbitrary number, you might ask? Why can&rsquo;t a single engineer write maintainable code? Perhaps your thoughts might lean towards peer-review for PRs and arrive at the number 2. Two engineers should be enough to properly review.</p>
