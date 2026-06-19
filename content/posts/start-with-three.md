@@ -52,7 +52,7 @@ If you're in the former, then hooray! You're making the most of throwaway code a
 
 If you're in the latter, then please consider selling your management on the benefits of starting fresh. Writing maintainable code is an attitude, that is either adopted fully or not at all. Endless amounts of refactoring and posthumous documentation only serve to slow you down.
 
-Hopefully by now, I've convinced you of three things:
+Hopefully by now, I've convinced you of four things:
 
 - Software must be maintainable
 - It's okay to write throwaway code.
