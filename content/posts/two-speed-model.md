@@ -1,5 +1,5 @@
 ---
-title: "From MVP to V1: Adjusting Development Strategies"
+title: "From MVP to V1: Shifting gears in software development"
 date: 2024-01-11T18:15:31+03:00
 tags: ["proof-of-concept"]
 draft: false
