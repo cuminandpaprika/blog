@@ -1,6 +1,6 @@
 baseURL = "https://www.jackzheng.co/"
 publishDir = "docs"
-languageCode = "en"                                      # website language
+locale = "en"                                            # website language
 defaultContentLanguage = "en"                            # [en, zh, ...] determines which i18n file to use
 title = "Jack Zheng"                                   # website title
 theme = "LoveIt"                                         # theme
@@ -257,4 +257,3 @@ unsafe = true
   page = ["HTML", "MarkDown"]
   section = ["HTML", "RSS"]
   taxonomy = ["HTML", "RSS"]
-  taxonomyTerm = ["HTML"]
