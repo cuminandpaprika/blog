@@ -1,5 +1,5 @@
 ---
-title: "Harness Engineering"
+title: "Software Engineer -> Harness Engineer"
 date: 2026-06-19T00:00:00+03:00
 draft: true
 ---
@@ -16,4 +16,8 @@ The hard part isn't getting code that works written. It's getting code that can 
 
 ## Software Engineering Redefined
 
-So instead of writing the code directly, as Software Engineers we're now responsible for ensuring the coding agents produce maintainable code, and avoid common pitfalls that you as an experienced developer know about but the LLM does not. After all, the LLM was trained on all the publicly available code (which is potentially not the best quality code in existence, if we take the median). So instead of working on the product, we're now working on the factory that builds the product. Our job is to build the context pipelines, the guardrails.
+So instead of writing the code directly, as Software Engineers we're now responsible for ensuring the coding agents produce maintainable code, and avoid common pitfalls that you as an experienced developer know about but the LLM does not. After all, the LLM was trained on all the publicly available code (which is potentially not the best quality code in existence, if we take the median). So instead of working on the product, we're now working on the factory that builds the product. Our job is to build the context pipelines, the guardrails and the positive feedback loops that improve the speed and quality of our product output. 
+
+## The Harness Engineer
+
+This is still a new and rapidly evolving space but we can see some companies describing what this new world could look like. OpenAI has [written about their experiments with a product with 0 human written code.](https://openai.com/index/harness-engineering/). [Martin Fowler's bliki](https://martinfowler.com/articles/harness-engineering.html) also contains a treasure trove of concepts and terms that attempt to define the taxonomy of Harness Engineering.
