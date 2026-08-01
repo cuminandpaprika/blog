@@ -1,4 +1,4 @@
-# From MVP to V1: Adjusting Development Strategies
+# From MVP to V1: Shifting gears in software development
 
 
 ### How should software be built?

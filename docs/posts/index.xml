@@ -3,8 +3,17 @@
         <title>All Posts - Jack Zheng</title>
         <link>https://www.jackzheng.co/posts/</link>
         <description>All Posts | Jack Zheng</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 11 Jan 2024 18:15:31 &#43;0300</lastBuildDate><atom:link href="https://www.jackzheng.co/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>From MVP to V1: Adjusting Development Strategies</title>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 01 Aug 2026 00:00:00 &#43;0300</lastBuildDate><atom:link href="https://www.jackzheng.co/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Harness Engineering</title>
+    <link>https://www.jackzheng.co/harness-engineering/</link>
+    <pubDate>Sat, 01 Aug 2026 00:00:00 &#43;0300</pubDate>
+    <author>Jack Zheng</author>
+    <guid>https://www.jackzheng.co/harness-engineering/</guid>
+    <description><![CDATA[<h2 id="an-industry-with-an-identity-crisis">An industry with an identity crisis</h2>
+<p>It appears that the software industry is in one of the largest times of change since the rise of the web or mobile. Coding agents like Codex and Claude are good. So good that they can crank out code better than 90% of human software engineers, in maybe 10% of the time. I know this can seem terrifying, especially for software engineers who are scared they will be out of a job, but we can see it as an opportunity as well.</p>]]></description>
+</item>
+<item>
+    <title>From MVP to V1: Shifting gears in software development</title>
     <link>https://www.jackzheng.co/two-speed-model/</link>
     <pubDate>Thu, 11 Jan 2024 18:15:31 &#43;0300</pubDate>
     <author>Jack Zheng</author>
