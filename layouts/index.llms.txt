@@ -1,0 +1,16 @@
+# {{ .Site.Title }}
+
+> {{ .Site.Params.description }}
+
+## Pages
+
+- [About]({{ (.Site.GetPage "about").Permalink }}index.md): Who Jack Zheng is and what he works on.
+
+## Posts
+{{ range where .Site.RegularPages "Type" "posts" }}
+- [{{ .Title }}]({{ .Permalink }}index.md): {{ with .Params.description }}{{ . }}{{ else }}{{ .Summary | plainify | htmlUnescape | truncate 160 }}{{ end }}
+{{- end }}
+
+## Optional
+
+- [llms-full.txt]({{ "llms-full.txt" | absURL }}): every post above, concatenated in full.

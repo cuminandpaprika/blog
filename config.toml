@@ -246,14 +246,28 @@ unsafe = true
 [mediaTypes]                                          #### Options to make hugo output .md files.
   [mediaTypes."text/plain"]
     suffixes = ["md"]
+  [mediaTypes."text/x-llms-txt"]                      #### Distinct type so llms.txt/llms-full.txt get a .txt suffix, not .md.
+    suffixes = ["txt"]
 
 [outputFormats.MarkDown]                              #### Options to make hugo output .md files.
   mediaType = "text/plain"
   isPlainText = true
   isHTML = false
 
+[outputFormats.LLMS]                                  #### Options to make hugo output /llms.txt.
+  mediaType = "text/x-llms-txt"
+  baseName = "llms"
+  isPlainText = true
+  isHTML = false
+
+[outputFormats.LLMSFULL]                              #### Options to make hugo output /llms-full.txt.
+  mediaType = "text/x-llms-txt"
+  baseName = "llms-full"
+  isPlainText = true
+  isHTML = false
+
 [outputs]                                             #### Options to make hugo output .md files.
-  home = ["HTML", "RSS"]
+  home = ["HTML", "RSS", "LLMS", "LLMSFULL"]
   page = ["HTML", "MarkDown"]
   section = ["HTML", "RSS"]
   taxonomy = ["HTML", "RSS"]
