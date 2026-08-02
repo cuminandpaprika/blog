@@ -6,6 +6,7 @@ Hugo static site deployed via GitHub Pages at https://www.jackzheng.co/.
 
 - Hugo v0.163.3 (extended) with the LoveIt theme (vendored in `themes/LoveIt`)
 - Published to `docs/` (committed to git, served by GitHub Pages)
+- See [`LOVEIT.md`](LOVEIT.md) for what the theme already supports (shortcodes, config schema, comment systems, search, etc.) before building something custom. It also has an important note about the theme's nested config schema (`[params.footer]`, `[params.page.share]`, etc.) — a key in the wrong table is silently ignored, not an error.
 
 ## Build
 

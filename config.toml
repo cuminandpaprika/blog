@@ -62,23 +62,10 @@ unsafe = true
     weight = 4
 
 [params]
-  version = "5.x"                                        # LoveIt theme version
+  defaultTheme = "auto"                                   # site default theme ["auto", "light", "dark"]
   description = "Jack Zheng is a Staff Software Engineer with 7+ years building backend systems in Go, focused on fraud, fintech and e-commerce."
-  keywords = ["Jack", "Zheng", "Software", "Technology", "Development"]
-  home_mode = "post"
-  home_paginate = 6
-  avatar = "/static/images/avatar.jpeg"
-  socialShare = false
-  since = 2020
-  icp = ''
-  license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+  images = ["/cover.png"]                                 # site image for Open Graph / Twitter Cards (was unset before - no link previews had an image)
   gitRepo = "https://github.com/cuminandpaprika/blog"
-  linkToMarkdown = true
-  google_verification = ""
-  bing_verification = ""
-  yandex_verification = ""
-  pinterest_verification = ""
-  baidu_verification = ""
 
   [params.author]
     name = "Jack Zheng"
@@ -89,17 +76,64 @@ unsafe = true
     [params.header.title]
       name = "Jack Zheng"
 
+  [params.footer]                                        #### Footer Info
+    since = 2020
+    icp = ''
+    license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+
   [params.home]
     [params.home.profile]
+      avatarURL = "/static/images/avatar.jpeg"
+      gravatarEmail = ""
       subtitle = "Hi, I'm Jack. I like to build things"
       typeit = false
+    [params.home.posts]
+      paginate = 6
 
   [params.app]
     title = "Jack Zheng"
 
-  [params.seo]
-    [params.seo.publisher]
-      name = "Jack Zheng"
+  [params.seo]                                           # site-wide SEO image (JSON-LD)
+    image = "/cover.png"
+
+  [params.verification]
+    google = ""
+    bing = ""
+    yandex = ""
+    pinterest = ""
+    baidu = ""
+
+  [params.page]
+    linkToMarkdown = true
+    [params.page.share]                                  # Social Share Links in post page
+      enable = false
+      X = true
+      Facebook = true
+      Reddit = true
+    [params.page.seo]
+      [params.page.seo.publisher]
+        name = "Jack Zheng"
+        logoUrl = "/logo.png"
+    [params.page.comment]
+      [params.page.comment.gitalk]                       # Gitalk Comment Config (https://github.com/gitalk/gitalk)
+        owner = ""
+        repo = ""
+        clientId = ""
+        clientSecret = ""
+      [params.page.comment.valine]                       # Valine Comment Config (https://github.com/xCss/Valine)
+        enable = false
+        appId = ""
+        appKey = ""
+        avatar = "mp"
+        placeholder = "Your comment ..."
+        visitor = true
+        recordIP = true
+      [params.page.comment.facebook]                     # Facebook Comment Config (https://developers.facebook.com/docs/plugins/comments)
+        enable = false
+        width = "100%"
+        numPosts = 10
+        appId = ""
+        languageCode = "en_US"
 
   [params.cdn]                                       #### CSS and JS Files CDN
     fontawesome_free_css = ''                           # for example '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.10.1/css/all.min.css" integrity="sha256-fdcFNFiBMrNfWL6OcAGQz6jDgNTRxnrLEd4vJYFWScE=" crossorigin="anonymous">'
@@ -121,9 +155,6 @@ unsafe = true
     aplayer_css = ''
     aplayer_js = ''
     meting_js = ''
-
-  [params.gravatar]                                      # Gravatar Info for preferred avatar in home page
-    email = ""
 
   [params.social]                                        # Social Info in home page
     GitHub = "cuminandpaprika"
@@ -185,60 +216,6 @@ unsafe = true
     #Mastodon = "xxxx"
     #Thingiverse = "xxxx"
     #Devto = "xxxx"
-
-  [params.share]                                         # Social Share Links in post page
-    enable = false
-    Twitter = true
-    Facebook = true
-    Reddit = true
-    #Linkedin = true
-    #Pinterest = true
-    #HackerNews = true
-    #Mix = true
-    #Tumblr = true
-    #VKontakte = true
-    #Weibo = true
-
-  [params.publisher]                                     # Publisher Info just for SEO
-    name = "Jack Zheng"
-    [params.publisher.logo]
-      url = "logo.png"
-      width = 127
-      height = 40
-
-  [params.logo]                                          # Website Log Info just for SEO
-    url = "logo.png"
-    width = 127
-    height = 40
-
-  [params.image]                                         # Website Image Info just for SEO
-    url = "cover.png"
-    width = 800
-    height = 600
-
-  [params.gitalk]                                        # Gittalk Comment Config (https://github.com/gitalk/gitalk)
-    owner = ""
-    repo = ""
-    clientId = ""
-    clientSecret = ""
-
-  [params.valine]                                        # Valine Comment Config (https://github.com/xCss/Valine)
-    enable = false
-    appId = ""
-    appKey = ""
-    notify = false
-    verify = true
-    avatar = "mp"
-    placeholder = "Your comment ..."
-    visitor = true
-    recordIP = true
-
-  [params.facebook]                                      # Facebook Comment Config (https://developers.facebook.com/docs/plugins/comments)
-    enable = false
-    width = "100%"
-    numPosts = 10
-    appId = ""
-    languageCode = "en_US"
 
 [privacy]                                             #### Privacy Info (https://gohugo.io/about/hugo-and-gdpr/)
   [privacy.googleAnalytics]
