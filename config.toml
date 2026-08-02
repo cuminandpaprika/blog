@@ -63,7 +63,7 @@ unsafe = true
 
 [params]
   version = "5.x"                                        # LoveIt theme version
-  description = "Jack Zheng is a technologist, engineer and problem solver."
+  description = "Jack Zheng is a Staff Software Engineer with 7+ years building backend systems in Go, focused on fraud, fintech and e-commerce."
   keywords = ["Jack", "Zheng", "Software", "Technology", "Development"]
   home_mode = "post"
   home_paginate = 6
@@ -196,7 +196,7 @@ unsafe = true
     #Weibo = true
 
   [params.publisher]                                     # Publisher Info just for SEO
-    name = "XXXX"
+    name = "Jack Zheng"
     [params.publisher.logo]
       url = "logo.png"
       width = 127
