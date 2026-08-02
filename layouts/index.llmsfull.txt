@@ -1,0 +1,10 @@
+# {{ .Site.Title }}
+
+> {{ .Site.Params.description }}
+{{ range where .Site.RegularPages "Type" "posts" }}
+---
+
+# {{ .Title }}
+
+{{ .RawContent }}
+{{ end -}}
