@@ -1,6 +1,8 @@
 # About
 
-<img src="/static/images/avatar.jpeg" borderRadius="50%" width="200"/>
+{{< style "display:inline-block;width:200px;height:200px;border-radius:50%;overflow:hidden;" >}}
+{{< image src="/static/images/avatar.jpeg" alt="Jack Zheng" width="200" height="200" linked=false >}}
+{{< /style >}}
 
 Hey, I'm Jack, a Staff Software Engineer.
 
