@@ -1,0 +1,19 @@
+# Jack Zheng
+
+> Jack Zheng is a Staff Software Engineer with 7+ years building backend systems in Go, focused on fraud, fintech and e-commerce.
+
+## Pages
+
+- [About](https://www.jackzheng.co/about/index.md): Who Jack Zheng is and what he works on.
+
+## Posts
+
+- [Harness Engineering](https://www.jackzheng.co/harness-engineering/index.md): An industry with an identity crisis It appears that the software industry is in one of the largest times of change since the rise of the web or mobile. Coding …
+- [From MVP to V1: Shifting gears in software development](https://www.jackzheng.co/two-speed-model/index.md): How should software be built? It depends.
+There isn’t a single “correct” way to build software. An early stage startup might focus on speed over …
+- [Start with Three](https://www.jackzheng.co/start-with-three/index.md): Engineering projects that require maintainable code should always start with a team of 3 or more engineers.
+Why such an arbitrary number, you might ask? Why …
+
+## Optional
+
+- [llms-full.txt](https://www.jackzheng.co/llms-full.txt): every post above, concatenated in full.
