@@ -2,6 +2,8 @@
 title: "Start with Three"
 date: 2020-04-11T14:34:27+10:00
 draft: false
+aliases:
+  - /2020/04/start-with-three/
 ---
 
 Engineering projects that require maintainable code should always start with a team of 3 or more engineers.
