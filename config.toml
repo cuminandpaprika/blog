@@ -68,7 +68,6 @@ unsafe = true
   home_mode = "post"
   home_paginate = 6
   avatar = "/static/images/avatar.jpeg"
-  subtitle = "Hi, I'm Jack. I like to build things"
   socialShare = false
   since = 2020
   icp = ''
@@ -89,6 +88,11 @@ unsafe = true
   [params.header]
     [params.header.title]
       name = "Jack Zheng"
+
+  [params.home]
+    [params.home.profile]
+      subtitle = "Hi, I'm Jack. I like to build things"
+      typeit = false
 
   [params.app]
     title = "Jack Zheng"

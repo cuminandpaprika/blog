@@ -1,7 +1,7 @@
 # From MVP to V1: Shifting gears in software development
 
 
-### How should software be built?
+## How should software be built?
 
 It depends.
 
@@ -14,7 +14,7 @@ If we broadly group development "modes" into two buckets, we get the following:
 
 MVP is everything before Product-Market Fit. V1 is after Product-Market Fit. Let's define what Product-Market Fit is.
 
-### Product Market Fit (PMF)
+## Product Market Fit (PMF)
 
 According to [Wikipedia](https://en.wikipedia.org/wiki/Product-market_fit):
 
@@ -24,7 +24,7 @@ To rephrase this, it means you've proven that customers will pay for what you ar
 
 [How to identify if your product has found Product-Market Fit](https://stripe.com/en-sg/resources/more/what-is-product-market-fit-what-startups-need-to-know) is beyond the scope of this post and is best left up to the product team to debate.
 
-### Pre-product market fit
+## Pre-product market fit
 
 At this point, speed is everything. There are a million and one failed startups that have not found PMF. The first objective of a startup is to achieve product-market fit.
 
@@ -42,7 +42,7 @@ A few caveats:
 
 The goal is to validate your product hypothesis as quickly as possible. If you fail fast and fail cheaply, this means you have more opportunities to pivot and try different ideas.
 
-### Post Product Market Fit
+## Post Product Market Fit
 
 Congrats, you've found PMF. Customers are banging down your door to buy your product. Now you can build everything for real. You know the crappy MVP that's held together by scotch tape and hacky workarounds? You can now build your V1 the "right way". This doesn't mean over-engineering the living daylights out of your system. It means selecting the minimal set of practices which allow you to maintain your engineering quality and velocity.
 
@@ -52,7 +52,7 @@ A few considerations:
 - In the process of building an MVP, you will have discovered better abstractions and models of the problem space.
 - For a V1, you can start to think about how to architect your system and development process to increase development velocity and feature quality.
 
-### Conclusion
+## Conclusion
 
 Hopefully, I've helped clarify that there's no single "correct" way to build software. What's right for one team might be completely wrong for another. The optimal approach depends on the context around which the software is written. By recognizing that each company and team is a different equation to solve for, you can tailor your software-engineering practices to suit the unique constraints and goals of each organization.
 

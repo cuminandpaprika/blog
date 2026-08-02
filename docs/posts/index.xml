@@ -18,7 +18,7 @@
     <pubDate>Thu, 11 Jan 2024 18:15:31 &#43;0300</pubDate>
     <author>Jack Zheng</author>
     <guid>https://www.jackzheng.co/two-speed-model/</guid>
-    <description><![CDATA[<h3 id="how-should-software-be-built">How should software be built?</h3>
+    <description><![CDATA[<h2 id="how-should-software-be-built">How should software be built?</h2>
 <p>It depends.</p>
 <p>There isn&rsquo;t a single &ldquo;correct&rdquo; way to build software. An early stage startup might focus on speed over maintainability, because they&rsquo;re looking to find Product-Market Fit (PMF). A scale-up which has found PMF might focus instead on maintaining engineering velocity. Both are solutions to two completely different equations.</p>
 <p>If we broadly group development &ldquo;modes&rdquo; into two buckets, we get the following:</p>

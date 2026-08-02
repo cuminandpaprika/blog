@@ -467,7 +467,11 @@ var Theme = /*#__PURE__*/function () {
       for (var num = 1; num <= 6; num++) {
         Util.forEach(document.querySelectorAll('.single .content > h' + num), function ($header) {
           $header.classList.add('headerLink');
-          $header.insertAdjacentHTML('afterbegin', "<a href=\"#".concat($header.id, "\" class=\"header-mark\"></a>"));
+          var $mark = document.createElement('a');
+          $mark.href = "#".concat($header.id);
+          $mark.className = 'header-mark';
+          $mark.setAttribute('aria-label', "Permalink to \"".concat($header.textContent.trim(), "\""));
+          $header.insertAdjacentElement('afterbegin', $mark);
         });
       }
     }

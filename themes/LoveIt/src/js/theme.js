@@ -384,7 +384,11 @@ class Theme {
         for (let num = 1; num <= 6; num++) {
             Util.forEach(document.querySelectorAll('.single .content > h' + num), $header => {
                 $header.classList.add('headerLink');
-                $header.insertAdjacentHTML('afterbegin', `<a href="#${$header.id}" class="header-mark"></a>`);
+                const $mark = document.createElement('a');
+                $mark.href = `#${$header.id}`;
+                $mark.className = 'header-mark';
+                $mark.setAttribute('aria-label', `Permalink to "${$header.textContent.trim()}"`);
+                $header.insertAdjacentElement('afterbegin', $mark);
             });
         }
     }
