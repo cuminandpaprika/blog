@@ -13,11 +13,13 @@ Hugo static site deployed via GitHub Pages at https://www.jackzheng.co/.
 Builds must run with `HUGO_ENV=production` (or `--environment production`). The LoveIt theme only enables CDN-hosted vendor assets and fingerprinting in production; a plain dev build instead vendors local copies into `docs/lib/`, which diverges from what's actually committed.
 
 ```sh
-HUGO_ENV=production hugo   # builds into docs/ — always use this, not plain `hugo`
-hugo server                 # local dev server with live reload (dev mode is fine here)
+HUGO_ENV=production hugo --cleanDestinationDir   # builds into docs/ — always use this, not plain `hugo`
+hugo server                                       # local dev server with live reload (dev mode is fine here)
 ```
 
-A pre-push hook automatically runs the production build before every push. If `docs/` has changed, it amends the HEAD commit to include the rebuild, so the deployed site always stays in sync in a single push.
+`--cleanDestinationDir` matters: Hugo never deletes orphaned output on its own, so a plain build silently leaves stale files behind in `docs/` (old permalinks, renamed assets, previous favicons) whenever source content changes shape.
+
+A pre-push hook builds into a temp dir and diffs it against `docs/`. If they differ, the push is blocked with a reminder to rebuild and commit — it does not build or commit for you.
 
 ## Content
 
