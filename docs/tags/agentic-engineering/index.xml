@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Ai on Jack Zheng</title>
-		<link>https://www.jackzheng.co/tags/ai/</link>
-		<description>Recent content in Ai on Jack Zheng</description>
+		<title>Agentic-Engineering on Jack Zheng</title>
+		<link>https://www.jackzheng.co/tags/agentic-engineering/</link>
+		<description>Recent content in Agentic-Engineering on Jack Zheng</description>
 		<generator>Hugo</generator>
 		<language>en</language>
 		
@@ -14,7 +14,7 @@
 		
 			<lastBuildDate>Sat, 15 Aug 2026 09:47:32 +0300</lastBuildDate>
 		
-			<atom:link href="https://www.jackzheng.co/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://www.jackzheng.co/tags/agentic-engineering/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Harness Engineering</title>
 				<link>https://www.jackzheng.co/harness-engineering/</link>
