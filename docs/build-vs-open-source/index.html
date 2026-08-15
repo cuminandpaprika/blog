@@ -4,33 +4,28 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>From MVP to V1: Shifting gears in software development - Jack Zheng</title><meta name="Description" content="Jack Zheng is a Staff Software Engineer with 7&#43; years building backend systems in Go, focused on fraud, fintech and e-commerce."><meta property="og:url" content="https://www.jackzheng.co/two-speed-model/">
+        <title>Build vs Open-Source - Jack Zheng</title><meta name="Description" content="A framework for deciding when to adopt an open-source solution, and when you&#39;ve outgrown it."><meta property="og:url" content="https://www.jackzheng.co/build-vs-open-source/">
 	<meta property="og:site_name" content="Jack Zheng">
-	<meta property="og:title" content="From MVP to V1: Shifting gears in software development">
-	<meta property="og:description" content="How should software be built? It depends.
-There isn’t a single “correct” way to build software. An early stage startup might focus on speed over maintainability, because they’re looking to find Product-Market Fit (PMF). A scale-up which has found PMF might focus instead on maintaining engineering velocity. Both are solutions to two completely different equations.
-If we broadly group development “modes” into two buckets, we get the following:
-MVP V1 MVP is everything before Product-Market Fit. V1 is after Product-Market Fit. Let’s define what Product-Market Fit is.">
+	<meta property="og:title" content="Build vs Open-Source">
+	<meta property="og:description" content="A framework for deciding when to adopt an open-source solution, and when you&#39;ve outgrown it.">
 	<meta property="og:locale" content="en">
 	<meta property="og:type" content="article">
 		<meta property="article:section" content="posts">
-		<meta property="article:published_time" content="2024-01-11T18:15:31+03:00">
-		<meta property="article:modified_time" content="2026-08-02T18:06:42+03:00">
-		<meta property="article:tag" content="Proof-of-Concept">
+		<meta property="article:published_time" content="2024-11-28T17:54:44+03:00">
+		<meta property="article:modified_time" content="2024-11-28T17:54:44+03:00">
+		<meta property="article:tag" content="Open-Source">
+		<meta property="article:tag" content="Build-vs-Buy">
 		<meta property="og:image" content="https://www.jackzheng.co/cover.png">
 
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:image" content="https://www.jackzheng.co/cover.png">
-	<meta name="twitter:title" content="From MVP to V1: Shifting gears in software development">
-	<meta name="twitter:description" content="How should software be built? It depends.
-There isn’t a single “correct” way to build software. An early stage startup might focus on speed over maintainability, because they’re looking to find Product-Market Fit (PMF). A scale-up which has found PMF might focus instead on maintaining engineering velocity. Both are solutions to two completely different equations.
-If we broadly group development “modes” into two buckets, we get the following:
-MVP V1 MVP is everything before Product-Market Fit. V1 is after Product-Market Fit. Let’s define what Product-Market Fit is.">
+	<meta name="twitter:title" content="Build vs Open-Source">
+	<meta name="twitter:description" content="A framework for deciding when to adopt an open-source solution, and when you&#39;ve outgrown it.">
 <meta name="application-name" content="Jack Zheng">
 <meta name="apple-mobile-web-app-title" content="Jack Zheng">
 <meta name="referrer" content="no-referrer" /><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://www.jackzheng.co/two-speed-model/" /><link rel="prev" href="https://www.jackzheng.co/start-with-three/" /><link rel="next" href="https://www.jackzheng.co/harness-engineering/" /><link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://www.jackzheng.co/build-vs-open-source/" /><link rel="prev" href="https://www.jackzheng.co/speed-vs-quality/" /><link rel="next" href="https://www.jackzheng.co/harness-engineering/" /><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -38,18 +33,18 @@ MVP V1 MVP is everything before Product-Market Fit. V1 is after Product-Market F
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "From MVP to V1: Shifting gears in software development",
+        "headline": "Build vs Open-Source",
         "inLanguage": "en",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https:\/\/www.jackzheng.co\/two-speed-model\/"
-        },"image": ["https:\/\/www.jackzheng.co\/cover.png"],"genre": "posts","keywords": "proof-of-concept","wordcount":  550 ,
-        "url": "https:\/\/www.jackzheng.co\/two-speed-model\/","datePublished": "2024-01-11T18:15:31+03:00","dateModified": "2026-08-02T18:06:42+03:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@id": "https:\/\/www.jackzheng.co\/build-vs-open-source\/"
+        },"image": ["https:\/\/www.jackzheng.co\/cover.png"],"genre": "posts","keywords": "open-source, build-vs-buy","wordcount":  572 ,
+        "url": "https:\/\/www.jackzheng.co\/build-vs-open-source\/","datePublished": "2024-11-28T17:54:44+03:00","dateModified": "2024-11-28T17:54:44+03:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "Jack Zheng","logo": "https:\/\/www.jackzheng.co\/logo.png"},"author": {
                 "@type": "Person",
                 "name": "Jack Zheng"
-            },"description": ""
+            },"description": "A framework for deciding when to adopt an open-source solution, and when you've outgrown it."
     }
     </script></head>
     <body data-header-desktop="fixed" data-header-mobile="auto"><script>
@@ -108,7 +103,9 @@ MVP V1 MVP is everything before Product-Market Fit. V1 is after Product-Market F
                 <div class="container"><div class="toc" id="toc-auto">
             <h2 class="toc-title">Contents</h2>
             <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">From MVP to V1: Shifting gears in software development</h1><div class="post-meta"><div class="post-meta-line"><i class="far fa-calendar-alt" aria-hidden="true"></i>&nbsp;<time datetime="2024-01-11">2024-01-11</time>&nbsp;<i class="fas fa-pencil-alt" aria-hidden="true"></i>&nbsp;550 words&nbsp;
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Build vs Open-Source</h1><div class="post-meta"><div class="post-meta-line">
+                    <span class="post-category">included in <a href="/categories/software/"><i class="far fa-folder" aria-hidden="true"></i>Software</a></span>
+                </div><div class="post-meta-line"><i class="far fa-calendar-alt" aria-hidden="true"></i>&nbsp;<time datetime="2024-11-28">2024-11-28</time>&nbsp;<i class="fas fa-pencil-alt" aria-hidden="true"></i>&nbsp;572 words&nbsp;
                 <i class="far fa-clock" aria-hidden="true"></i>&nbsp;3 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
@@ -117,65 +114,57 @@ MVP V1 MVP is everything before Product-Market Fit. V1 is after Product-Market F
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
-    <li><a href="#how-should-software-be-built">How should software be built?</a></li>
-    <li><a href="#product-market-fit-pmf">Product Market Fit (PMF)</a></li>
-    <li><a href="#pre-product-market-fit">Pre-product market fit</a></li>
-    <li><a href="#post-product-market-fit">Post Product Market Fit</a></li>
+    <li><a href="#setting-the-scene">Setting the scene</a></li>
+    <li><a href="#tradeoff-analysis">Tradeoff Analysis</a></li>
+    <li><a href="#use-the-open-source-product-first">Use the open-source product first</a></li>
+    <li><a href="#what-happens-when-you-outgrow-the-open-source-product">What happens when you outgrow the open-source product?</a></li>
+    <li><a href="#when-do-you-build-custom-from-the-start">When do you build custom from the start?</a></li>
     <li><a href="#conclusion">Conclusion</a></li>
   </ul>
 </nav></div>
-            </div><div class="content" id="content"><h2 id="how-should-software-be-built">How should software be built?</h2>
-<p>It depends.</p>
-<p>There isn&rsquo;t a single &ldquo;correct&rdquo; way to build software. An early stage startup might focus on speed over maintainability, because they&rsquo;re looking to find Product-Market Fit (PMF). A scale-up which has found PMF might focus instead on maintaining engineering velocity. Both are solutions to two completely different equations.</p>
-<p>If we broadly group development &ldquo;modes&rdquo; into two buckets, we get the following:</p>
+            </div><div class="content" id="content"><h2 id="setting-the-scene">Setting the scene</h2>
+<p>Your manager comes to you with an urgent task: You need an API Gateway and you need it yesterday.</p>
+<p>First you type in &ldquo;API Gateway&rdquo; into Google. You find a long list of articles telling you what the core features of an API Gateway are and some commercial offerings as well as some open source solutions. Finally, you realise all the blog posts are actually written by API Gateway vendors and they&rsquo;re using it for organic search SEO.</p>
+<p>At this point you realise you have 2 options:</p>
 <ul>
-<li>MVP</li>
-<li>V1</li>
+<li>Build an API Gateway</li>
+<li>Use an Open Source API Gateway</li>
 </ul>
-<p>MVP is everything before Product-Market Fit. V1 is after Product-Market Fit. Let&rsquo;s define what Product-Market Fit is.</p>
-<h2 id="product-market-fit-pmf">Product Market Fit (PMF)</h2>
-<p>According to <a href="https://en.wikipedia.org/wiki/Product-market_fit" target="_blank" rel="noopener noreffer ">Wikipedia</a>:</p>
-<blockquote>
-<p>Product-market fit, also known as product/market fit, is the degree to which a product satisfies a strong market demand.</p>
-</blockquote>
-<p>To rephrase this, it means you&rsquo;ve proven that customers will pay for what you are building.</p>
-<p><a href="https://stripe.com/en-sg/resources/more/what-is-product-market-fit-what-startups-need-to-know" target="_blank" rel="noopener noreffer ">How to identify if your product has found Product-Market Fit</a> is beyond the scope of this post and is best left up to the product team to debate.</p>
-<h2 id="pre-product-market-fit">Pre-product market fit</h2>
-<p>At this point, speed is everything. There are a million and one failed startups that have not found PMF. The first objective of a startup is to achieve product-market fit.</p>
-<p>What do you not do here?</p>
+<p>No, you can&rsquo;t go with a commercial offering, not in this <a href="https://newsletter.pragmaticengineer.com/p/zirp" target="_blank" rel="noopener noreffer ">post-ZIRP</a> economy!</p>
+<p>So how do you go about deciding?</p>
+<h2 id="tradeoff-analysis">Tradeoff Analysis</h2>
+<p>If you do things by the books, you will soon end up with columns of pros and cons for build vs open-source. Build will generally give you greater flexibility, open-source will generally be faster and require less maintenance. Exceptions apply to the previous statement.</p>
+<p>Most of the time, even if you intend to build something from scratch yourself, it&rsquo;s a worthwhile investment to kick the tyres on the open source offerings.</p>
+<p>Here&rsquo;s why:</p>
 <ul>
-<li>Design highly scalable architecture</li>
-<li>Automate repetitive processes</li>
-<li>Refactor and clean up tech debt</li>
-<li>Write unit tests to make it easy to refactor and extend functionality</li>
-<li>Write code that is easy to unit test</li>
+<li>It lets you get familiar with the features you need</li>
+<li>It lets you see how someone else solved the problem</li>
+<li>It typically also gives you a hint of where the challenging parts are</li>
 </ul>
-<p>A few caveats:</p>
+<h2 id="use-the-open-source-product-first">Use the open-source product first</h2>
+<p>If you need to get something deployed, start with an open-source solution (if one exists) first. It solves your problem today but isn&rsquo;t necessarily a forever solution. As you start to use the open-source solution, you&rsquo;ll learn what the features are and where the points of friction are. Which use-cases are easily solved by the open-source solution? You can keep a list of use-cases that are well solved and a list of gaps that act as a trigger point: if you have a deal breaker gap, then you&rsquo;ve outgrown the open-source product.</p>
+<h2 id="what-happens-when-you-outgrow-the-open-source-product">What happens when you outgrow the open-source product?</h2>
+<p>At some point, you might find that the open-source product doesn&rsquo;t fit your needs anymore. Generally any open-source or commercial software has a fundamental constraint: they can only ship features that 80% of their customer-base need. Most enterprise companies will have specific requirements that aren&rsquo;t supported by off-the-shelf open source or commercial software, whether that be scale, high availability or integration with the unique software ecosystem at that company.</p>
+<p>You now have three options:</p>
 <ul>
-<li>If it&rsquo;s faster to write a unit test to verify some complex logic is correct, it&rsquo;s okay to do so.</li>
-<li>If you write any tests at all, integration tests and end-to-end tests have the highest return on investment here.</li>
+<li>Upstream contributions if enough other users will benefit</li>
+<li>Fork the Open-Source solution (e.g. Alibaba did this with their fork of MySQL, <a href="https://github.com/alibaba/AliSQL" target="_blank" rel="noopener noreffer ">AliSQL</a>)</li>
+<li>Create your own custom implementation from scratch</li>
 </ul>
-<p>The goal is to validate your product hypothesis as quickly as possible. If you fail fast and fail cheaply, this means you have more opportunities to pivot and try different ideas.</p>
-<h2 id="post-product-market-fit">Post Product Market Fit</h2>
-<p>Congrats, you&rsquo;ve found PMF. Customers are banging down your door to buy your product. Now you can build everything for real. You know the crappy MVP that&rsquo;s held together by scotch tape and hacky workarounds? You can now build your V1 the &ldquo;right way&rdquo;. This doesn&rsquo;t mean over-engineering the living daylights out of your system. It means selecting the minimal set of practices which allow you to maintain your engineering quality and velocity.</p>
-<p>Often companies will build on top of what already exists and evolve the MVP. This creates competing incentives because when building an MVP, any corner that can be cut should be cut. If you know you&rsquo;ll throw away the MVP, it removes any unnecessary constraints and also simplifies the solution space for the MVP and the V1.</p>
-<p>A few considerations:</p>
-<ul>
-<li>In the process of building an MVP, you will have discovered better abstractions and models of the problem space.</li>
-<li>For a V1, you can start to think about how to architect your system and development process to increase development velocity and feature quality.</li>
-</ul>
+<h2 id="when-do-you-build-custom-from-the-start">When do you build custom from the start?</h2>
+<p>Every software company deploys a blend of open-source technology and in-house software. Generally, we want to build the core product in-house and use off-the-shelf for everything else: API Gateways, Feature Flag systems, databases, deployment tooling, etc. This helps us preserve our focus and attention on our core product, instead of wasting time implementing things that our customers don&rsquo;t care about.</p>
+<p>We don&rsquo;t want to end up in a situation where our core product is inflexible because it&rsquo;s entirely an open-source product. We want the ability to add new features that differentiate our product from competitors.</p>
 <h2 id="conclusion">Conclusion</h2>
-<p>Hopefully, I&rsquo;ve helped clarify that there&rsquo;s no single &ldquo;correct&rdquo; way to build software. What&rsquo;s right for one team might be completely wrong for another. The optimal approach depends on the context around which the software is written. By recognizing that each company and team is a different equation to solve for, you can tailor your software-engineering practices to suit the unique constraints and goals of each organization.</p>
+<p>So now you have a rough idea of when to build something custom and when to just deploy an open source tool and find a more interesting problem to write code for.</p>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>Updated on 2026-08-02&nbsp;<a class="git-hash" href="https://github.com/cuminandpaprika/blog/commit/734e61d6a378be659369ca3b4d3c9fc4500d6e16" target="_blank" title="commit by Jack Zheng(cuminandpaprika@github.com) 734e61d6a378be659369ca3b4d3c9fc4500d6e16: Fix PageSpeed accessibility, SEO, and best-practices issues">
-                                    <i class="fas fa-hashtag" aria-hidden="true"></i>734e61d</a></span>
+                <span>Updated on 2024-11-28</span>
             </div></div>
         <div class="post-info-line">
             <div class="post-info-md"><span>
-                            <a class="link-to-markdown" href="/two-speed-model/index.md" target="_blank">Read Markdown</a>
+                            <a class="link-to-markdown" href="/build-vs-open-source/index.md" target="_blank">Read Markdown</a>
                         </span></div>
             <div class="post-info-share">
                 <span></span>
@@ -184,13 +173,13 @@ MVP V1 MVP is everything before Product-Market Fit. V1 is after Product-Market F
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"><i class="fas fa-tags" aria-hidden="true"></i>&nbsp;<a href="/tags/proof-of-concept/">Proof-of-Concept</a></section>
+        <section class="post-tags"><i class="fas fa-tags" aria-hidden="true"></i>&nbsp;<a href="/tags/open-source/">Open-Source</a>,&nbsp;<a href="/tags/build-vs-buy/">Build-vs-Buy</a></section>
         <section>
             <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
         </section>
     </div>
 
-    <div class="post-nav"><a href="/start-with-three/" class="prev" rel="prev" title="Start with Three"><i class="fas fa-angle-left" aria-hidden="true"></i>Start with Three</a>
+    <div class="post-nav"><a href="/speed-vs-quality/" class="prev" rel="prev" title="Speed vs Quality"><i class="fas fa-angle-left" aria-hidden="true"></i>Speed vs Quality</a>
             <a href="/harness-engineering/" class="next" rel="next" title="Harness Engineering">Harness Engineering<i class="fas fa-angle-right" aria-hidden="true"></i></a></div>
 </div>
 </article></div>

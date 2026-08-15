@@ -36,3 +36,7 @@ Use RFC 3339 dates with a leading-zero timezone offset:
 date: 2024-01-11T18:15:31+03:00   # correct
 date: 2024-01-11T18:15:31+3:00    # wrong — Hugo may parse as zero time (0001-01-01)
 ```
+
+### Spelling
+
+Post copy uses British spelling (colour, organise, tyres, favourite, etc.), not American. Check drafts for American spellings before publishing.

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Build-vs-Buy on Jack Zheng</title>
+		<link>https://www.jackzheng.co/tags/build-vs-buy/</link>
+		<description>Recent content in Build-vs-Buy on Jack Zheng</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+			<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+		
+		
+			<lastBuildDate>Thu, 28 Nov 2024 17:54:44 +0300</lastBuildDate>
+		
+			<atom:link href="https://www.jackzheng.co/tags/build-vs-buy/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Build vs Open-Source</title>
+				<link>https://www.jackzheng.co/build-vs-open-source/</link>
+				<pubDate>Thu, 28 Nov 2024 17:54:44 +0300</pubDate>
+				<guid>https://www.jackzheng.co/build-vs-open-source/</guid>
+				<description>&lt;h2 id=&#34;setting-the-scene&#34;&gt;Setting the scene&lt;/h2&gt;&#xA;&lt;p&gt;Your manager comes to you with an urgent task: You need an API Gateway and you need it yesterday.&lt;/p&gt;&#xA;&lt;p&gt;First you type in &amp;ldquo;API Gateway&amp;rdquo; into Google. You find a long list of articles telling you what the core features of an API Gateway are and some commercial offerings as well as some open source solutions. Finally, you realise all the blog posts are actually written by API Gateway vendors and they&amp;rsquo;re using it for organic search SEO.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Speed vs Quality - Jack Zheng</title><meta name="Description" content="Before product-market fit, optimise for speed. After it, optimise for quality. A framework for shifting your engineering practices as your product matures."><meta property="og:url" content="https://www.jackzheng.co/speed-vs-quality/">
+	<meta property="og:site_name" content="Jack Zheng">
+	<meta property="og:title" content="Speed vs Quality">
+	<meta property="og:description" content="Before product-market fit, optimise for speed. After it, optimise for quality. A framework for shifting your engineering practices as your product matures.">
+	<meta property="og:locale" content="en">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2024-01-11T18:15:31+03:00">
+		<meta property="article:modified_time" content="2024-01-11T18:15:31+03:00">
+		<meta property="article:tag" content="Proof-of-Concept">
+		<meta property="article:tag" content="Product-Market-Fit">
+		<meta property="article:tag" content="Engineering-Culture">
+		<meta property="og:image" content="https://www.jackzheng.co/cover.png">
+
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image" content="https://www.jackzheng.co/cover.png">
+	<meta name="twitter:title" content="Speed vs Quality">
+	<meta name="twitter:description" content="Before product-market fit, optimise for speed. After it, optimise for quality. A framework for shifting your engineering practices as your product matures.">
+<meta name="application-name" content="Jack Zheng">
+<meta name="apple-mobile-web-app-title" content="Jack Zheng">
+<meta name="referrer" content="no-referrer" /><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://www.jackzheng.co/speed-vs-quality/" /><link rel="prev" href="https://www.jackzheng.co/start-with-three/" /><link rel="next" href="https://www.jackzheng.co/build-vs-open-source/" /><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Speed vs Quality",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/www.jackzheng.co\/speed-vs-quality\/"
+        },"image": ["https:\/\/www.jackzheng.co\/cover.png"],"genre": "posts","keywords": "proof-of-concept, product-market-fit, engineering-culture","wordcount":  550 ,
+        "url": "https:\/\/www.jackzheng.co\/speed-vs-quality\/","datePublished": "2024-01-11T18:15:31+03:00","dateModified": "2024-01-11T18:15:31+03:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@type": "Organization",
+            "name": "Jack Zheng","logo": "https:\/\/www.jackzheng.co\/logo.png"},"author": {
+                "@type": "Person",
+                "name": "Jack Zheng"
+            },"description": "Before product-market fit, optimise for speed. After it, optimise for quality. A framework for shifting your engineering practices as your product matures."
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script>
+          const query = window.matchMedia('(prefers-color-scheme: dark)');
+          function applyTheme() {
+            let theme = window.localStorage?.getItem('theme') || 'auto';
+            let isDark = theme === 'dark' || (theme === 'auto' && query.matches);
+            document.body.setAttribute('theme', isDark? 'dark' : 'light');
+            document.body.setAttribute('cfg-theme', theme);
+          }
+
+          applyTheme();
+          query.addEventListener('change', applyTheme);
+        </script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Jack Zheng"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/images/logo-mark.svg"
+        data-srcset="/images/logo-mark.svg, /images/logo-mark.svg 1.5x, /images/logo-mark.svg 2x"
+        data-sizes="auto"
+        alt="/images/logo-mark.svg"
+        title="/images/logo-mark.svg" />Jack Zheng</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts"> Posts </a><a class="menu-item" href="/tags"> Tags </a><a class="menu-item" href="/categories"> Categories </a><a class="menu-item" href="/about"> About </a><span class="menu-item delimiter"></span><button type="button" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust" aria-hidden="true"></i>
+                </button></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Jack Zheng"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/images/logo-mark.svg"
+        data-srcset="/images/logo-mark.svg, /images/logo-mark.svg 1.5x, /images/logo-mark.svg 2x"
+        data-sizes="auto"
+        alt="/images/logo-mark.svg"
+        title="/images/logo-mark.svg" />Jack Zheng</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts" title="">Posts</a><a class="menu-item" href="/tags" title="">Tags</a><a class="menu-item" href="/categories" title="">Categories</a><a class="menu-item" href="/about" title="">About</a><button type="button" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust" aria-hidden="true"></i>
+            </button></div>
+    </div>
+</header><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Speed vs Quality</h1><div class="post-meta"><div class="post-meta-line">
+                    <span class="post-category">included in <a href="/categories/software/"><i class="far fa-folder" aria-hidden="true"></i>Software</a></span>
+                </div><div class="post-meta-line"><i class="far fa-calendar-alt" aria-hidden="true"></i>&nbsp;<time datetime="2024-01-11">2024-01-11</time>&nbsp;<i class="fas fa-pencil-alt" aria-hidden="true"></i>&nbsp;550 words&nbsp;
+                <i class="far fa-clock" aria-hidden="true"></i>&nbsp;3 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#how-should-software-be-built">How should software be built?</a></li>
+    <li><a href="#product-market-fit-pmf">Product Market Fit (PMF)</a></li>
+    <li><a href="#pre-product-market-fit">Pre-product market fit</a></li>
+    <li><a href="#post-product-market-fit">Post Product Market Fit</a></li>
+    <li><a href="#conclusion">Conclusion</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h2 id="how-should-software-be-built">How should software be built?</h2>
+<p>It depends.</p>
+<p>There isn&rsquo;t a single &ldquo;correct&rdquo; way to build software. An early stage startup might focus on speed over maintainability, because they&rsquo;re looking to find Product-Market Fit (PMF). A scale-up which has found PMF might focus instead on maintaining engineering velocity. Both are solutions to two completely different equations.</p>
+<p>If we broadly group development &ldquo;modes&rdquo; into two buckets, we get the following:</p>
+<ul>
+<li>MVP</li>
+<li>V1</li>
+</ul>
+<p>MVP is everything before Product-Market Fit. V1 is after Product-Market Fit. Let&rsquo;s define what Product-Market Fit is.</p>
+<h2 id="product-market-fit-pmf">Product Market Fit (PMF)</h2>
+<p>According to <a href="https://en.wikipedia.org/wiki/Product-market_fit" target="_blank" rel="noopener noreffer ">Wikipedia</a>:</p>
+<blockquote>
+<p>Product-market fit, also known as product/market fit, is the degree to which a product satisfies a strong market demand.</p>
+</blockquote>
+<p>To rephrase this, it means you&rsquo;ve proven that customers will pay for what you are building.</p>
+<p><a href="https://stripe.com/en-sg/resources/more/what-is-product-market-fit-what-startups-need-to-know" target="_blank" rel="noopener noreffer ">How to identify if your product has found Product-Market Fit</a> is beyond the scope of this post and is best left up to the product team to debate.</p>
+<h2 id="pre-product-market-fit">Pre-product market fit</h2>
+<p>At this point, speed is everything. There are a million and one failed startups that have not found PMF. The first objective of a startup is to achieve product-market fit.</p>
+<p>What do you not do here?</p>
+<ul>
+<li>Design highly scalable architecture</li>
+<li>Automate repetitive processes</li>
+<li>Refactor and clean up tech debt</li>
+<li>Write unit tests to make it easy to refactor and extend functionality</li>
+<li>Write code that is easy to unit test</li>
+</ul>
+<p>A few caveats:</p>
+<ul>
+<li>If it&rsquo;s faster to write a unit test to verify some complex logic is correct, it&rsquo;s okay to do so.</li>
+<li>If you write any tests at all, integration tests and end-to-end tests have the highest return on investment here.</li>
+</ul>
+<p>The goal is to validate your product hypothesis as quickly as possible. If you fail fast and fail cheaply, this means you have more opportunities to pivot and try different ideas.</p>
+<h2 id="post-product-market-fit">Post Product Market Fit</h2>
+<p>Congrats, you&rsquo;ve found PMF. Customers are banging down your door to buy your product. Now you can build everything for real. You know the crappy MVP that&rsquo;s held together by scotch tape and hacky workarounds? You can now build your V1 the &ldquo;right way&rdquo;. This doesn&rsquo;t mean over-engineering the living daylights out of your system. It means selecting the minimal set of practices which allow you to maintain your engineering quality and velocity.</p>
+<p>Often companies will build on top of what already exists and evolve the MVP. This creates competing incentives because when building an MVP, any corner that can be cut should be cut. If you know you&rsquo;ll throw away the MVP, it removes any unnecessary constraints and also simplifies the solution space for the MVP and the V1.</p>
+<p>A few considerations:</p>
+<ul>
+<li>In the process of building an MVP, you will have discovered better abstractions and models of the problem space.</li>
+<li>For a V1, you can start to think about how to architect your system and development process to increase development velocity and feature quality.</li>
+</ul>
+<h2 id="conclusion">Conclusion</h2>
+<p>Hopefully, I&rsquo;ve helped clarify that there&rsquo;s no single &ldquo;correct&rdquo; way to build software. What&rsquo;s right for one team might be completely wrong for another. The optimal approach depends on the context around which the software is written. By recognising that each company and team is a different equation to solve for, you can tailor your software-engineering practices to suit the unique constraints and goals of each organisation.</p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2024-01-11</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/speed-vs-quality/index.md" target="_blank">Read Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags" aria-hidden="true"></i>&nbsp;<a href="/tags/proof-of-concept/">Proof-of-Concept</a>,&nbsp;<a href="/tags/product-market-fit/">Product-Market-Fit</a>,&nbsp;<a href="/tags/engineering-culture/">Engineering-Culture</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/start-with-three/" class="prev" rel="prev" title="Start with Three"><i class="fas fa-angle-left" aria-hidden="true"></i>Start with Three</a>
+            <a href="/build-vs-open-source/" class="next" rel="next" title="Build vs Open-Source">Build vs Open-Source<i class="fas fa-angle-right" aria-hidden="true"></i></a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.163.3">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.3.1-DEV"><i class="far fa-kiss-wink-heart" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright" aria-hidden="true"></i><span itemprop="copyrightYear">2020 - 2026</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Jack Zheng</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up" aria-hidden="true"></i>
+            </a>
+        </div>
+
+        <div id="fixed-buttons-hidden"><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment" aria-hidden="true"></i>
+            </a>
+        </div><script src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script>window.config={"comment":{}};</script><script src="/js/theme.min.js"></script><script>
+            var doNotTrack = false;
+            if ( false ) {
+                var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+                var doNotTrack = (dnt == "1" || dnt == "yes");
+            }
+            if (!doNotTrack) {
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-RQNN5TQ173');
+            }
+        </script><script src="https://www.googletagmanager.com/gtag/js?id=G-RQNN5TQ173" async></script></body>
+</html>

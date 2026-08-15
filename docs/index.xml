@@ -15,11 +15,21 @@
 <p>It appears that the software industry is in one of the largest times of change since the rise of the web or mobile. Coding agents like Codex and Claude are good. So good that they can crank out code better than 90% of human software engineers, in maybe 10% of the time. I know this can seem terrifying, especially for software engineers who are scared they will be out of a job, but we can see it as an opportunity as well.</p>]]></description>
 </item>
 <item>
-    <title>From MVP to V1: Shifting gears in software development</title>
-    <link>https://www.jackzheng.co/two-speed-model/</link>
+    <title>Build vs Open-Source</title>
+    <link>https://www.jackzheng.co/build-vs-open-source/</link>
+    <pubDate>Thu, 28 Nov 2024 17:54:44 &#43;0300</pubDate>
+    <author>Jack Zheng</author>
+    <guid>https://www.jackzheng.co/build-vs-open-source/</guid>
+    <description><![CDATA[<h2 id="setting-the-scene">Setting the scene</h2>
+<p>Your manager comes to you with an urgent task: You need an API Gateway and you need it yesterday.</p>
+<p>First you type in &ldquo;API Gateway&rdquo; into Google. You find a long list of articles telling you what the core features of an API Gateway are and some commercial offerings as well as some open source solutions. Finally, you realise all the blog posts are actually written by API Gateway vendors and they&rsquo;re using it for organic search SEO.</p>]]></description>
+</item>
+<item>
+    <title>Speed vs Quality</title>
+    <link>https://www.jackzheng.co/speed-vs-quality/</link>
     <pubDate>Thu, 11 Jan 2024 18:15:31 &#43;0300</pubDate>
     <author>Jack Zheng</author>
-    <guid>https://www.jackzheng.co/two-speed-model/</guid>
+    <guid>https://www.jackzheng.co/speed-vs-quality/</guid>
     <description><![CDATA[<h2 id="how-should-software-be-built">How should software be built?</h2>
 <p>It depends.</p>
 <p>There isn&rsquo;t a single &ldquo;correct&rdquo; way to build software. An early stage startup might focus on speed over maintainability, because they&rsquo;re looking to find Product-Market Fit (PMF). A scale-up which has found PMF might focus instead on maintaining engineering velocity. Both are solutions to two completely different equations.</p>

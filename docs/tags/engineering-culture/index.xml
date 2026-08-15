@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Engineering-Culture on Jack Zheng</title>
+		<link>https://www.jackzheng.co/tags/engineering-culture/</link>
+		<description>Recent content in Engineering-Culture on Jack Zheng</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+			<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+		
+		
+			<lastBuildDate>Sun, 02 Aug 2026 17:45:48 +0300</lastBuildDate>
+		
+			<atom:link href="https://www.jackzheng.co/tags/engineering-culture/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Speed vs Quality</title>
+				<link>https://www.jackzheng.co/speed-vs-quality/</link>
+				<pubDate>Thu, 11 Jan 2024 18:15:31 +0300</pubDate>
+				<guid>https://www.jackzheng.co/speed-vs-quality/</guid>
+				<description>&lt;h2 id=&#34;how-should-software-be-built&#34;&gt;How should software be built?&lt;/h2&gt;&#xA;&lt;p&gt;It depends.&lt;/p&gt;&#xA;&lt;p&gt;There isn&amp;rsquo;t a single &amp;ldquo;correct&amp;rdquo; way to build software. An early stage startup might focus on speed over maintainability, because they&amp;rsquo;re looking to find Product-Market Fit (PMF). A scale-up which has found PMF might focus instead on maintaining engineering velocity. Both are solutions to two completely different equations.&lt;/p&gt;&#xA;&lt;p&gt;If we broadly group development &amp;ldquo;modes&amp;rdquo; into two buckets, we get the following:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;MVP&lt;/li&gt;&#xA;&lt;li&gt;V1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;MVP is everything before Product-Market Fit. V1 is after Product-Market Fit. Let&amp;rsquo;s define what Product-Market Fit is.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Start with Three</title>
+				<link>https://www.jackzheng.co/start-with-three/</link>
+				<pubDate>Sat, 11 Apr 2020 14:34:27 +1000</pubDate>
+				<guid>https://www.jackzheng.co/start-with-three/</guid>
+				<description>&lt;p&gt;Engineering projects that require maintainable code should always start with a team of 3 or more engineers.&lt;/p&gt;&#xA;&lt;p&gt;Why such an arbitrary number, you might ask? Why can&amp;rsquo;t a single engineer write maintainable code? Perhaps your thoughts might lean towards peer-review for PRs and arrive at the number 2. Two engineers should be enough to properly review.&lt;/p&gt;&#xA;&lt;p&gt;So why is it important for software to be maintainable?&lt;/p&gt;&#xA;&lt;p&gt;Software in the real world is only written to solve a problem for someone. But it doesn&amp;rsquo;t solve that problem fully (that&amp;rsquo;s a discussion for another post). It only represents a solution to a problem &lt;strong&gt;at that point in time&lt;/strong&gt;. Unfortunately, we don&amp;rsquo;t live in a static world, so problems are always evolving. As the problem changes and new problems arise, the software must be modified or updated to meet these altered conditions. Or else they must be retired and decommissioned, as they are no longer &lt;em&gt;fit for purpose&lt;/em&gt;.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

@@ -12,14 +12,14 @@
 			<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
 		
 		
-			<lastBuildDate>Sun, 02 Aug 2026 18:06:42 +0300</lastBuildDate>
+			<lastBuildDate>Thu, 11 Jan 2024 18:15:31 +0300</lastBuildDate>
 		
 			<atom:link href="https://www.jackzheng.co/tags/proof-of-concept/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>From MVP to V1: Shifting gears in software development</title>
-				<link>https://www.jackzheng.co/two-speed-model/</link>
+				<title>Speed vs Quality</title>
+				<link>https://www.jackzheng.co/speed-vs-quality/</link>
 				<pubDate>Thu, 11 Jan 2024 18:15:31 +0300</pubDate>
-				<guid>https://www.jackzheng.co/two-speed-model/</guid>
+				<guid>https://www.jackzheng.co/speed-vs-quality/</guid>
 				<description>&lt;h2 id=&#34;how-should-software-be-built&#34;&gt;How should software be built?&lt;/h2&gt;&#xA;&lt;p&gt;It depends.&lt;/p&gt;&#xA;&lt;p&gt;There isn&amp;rsquo;t a single &amp;ldquo;correct&amp;rdquo; way to build software. An early stage startup might focus on speed over maintainability, because they&amp;rsquo;re looking to find Product-Market Fit (PMF). A scale-up which has found PMF might focus instead on maintaining engineering velocity. Both are solutions to two completely different equations.&lt;/p&gt;&#xA;&lt;p&gt;If we broadly group development &amp;ldquo;modes&amp;rdquo; into two buckets, we get the following:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;MVP&lt;/li&gt;&#xA;&lt;li&gt;V1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;MVP is everything before Product-Market Fit. V1 is after Product-Market Fit. Let&amp;rsquo;s define what Product-Market Fit is.&lt;/p&gt;</description>
 			</item>
 	</channel>

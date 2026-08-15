@@ -4,32 +4,28 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>Start with Three - Jack Zheng</title><meta name="Description" content="Jack Zheng is a Staff Software Engineer with 7&#43; years building backend systems in Go, focused on fraud, fintech and e-commerce."><meta property="og:url" content="https://www.jackzheng.co/start-with-three/">
+        <title>Start with Three - Jack Zheng</title><meta name="Description" content="Why maintainable code needs a team of three or more, and what maintainability actually looks like in practice."><meta property="og:url" content="https://www.jackzheng.co/start-with-three/">
 	<meta property="og:site_name" content="Jack Zheng">
 	<meta property="og:title" content="Start with Three">
-	<meta property="og:description" content="Engineering projects that require maintainable code should always start with a team of 3 or more engineers.
-Why such an arbitrary number, you might ask? Why can’t a single engineer write maintainable code? Perhaps your thoughts might lean towards peer-review for PRs and arrive at the number 2. Two engineers should be enough to properly review.
-So why is it important for software to be maintainable?
-Software in the real world is only written to solve a problem for someone. But it doesn’t solve that problem fully (that’s a discussion for another post). It only represents a solution to a problem at that point in time. Unfortunately, we don’t live in a static world, so problems are always evolving. As the problem changes and new problems arise, the software must be modified or updated to meet these altered conditions. Or else they must be retired and decommissioned, as they are no longer fit for purpose.">
+	<meta property="og:description" content="Why maintainable code needs a team of three or more, and what maintainability actually looks like in practice.">
 	<meta property="og:locale" content="en">
 	<meta property="og:type" content="article">
 		<meta property="article:section" content="posts">
 		<meta property="article:published_time" content="2020-04-11T14:34:27+10:00">
 		<meta property="article:modified_time" content="2026-08-02T17:45:48+03:00">
+		<meta property="article:tag" content="Engineering-Culture">
+		<meta property="article:tag" content="Maintainability">
 		<meta property="og:image" content="https://www.jackzheng.co/cover.png">
 
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:image" content="https://www.jackzheng.co/cover.png">
 	<meta name="twitter:title" content="Start with Three">
-	<meta name="twitter:description" content="Engineering projects that require maintainable code should always start with a team of 3 or more engineers.
-Why such an arbitrary number, you might ask? Why can’t a single engineer write maintainable code? Perhaps your thoughts might lean towards peer-review for PRs and arrive at the number 2. Two engineers should be enough to properly review.
-So why is it important for software to be maintainable?
-Software in the real world is only written to solve a problem for someone. But it doesn’t solve that problem fully (that’s a discussion for another post). It only represents a solution to a problem at that point in time. Unfortunately, we don’t live in a static world, so problems are always evolving. As the problem changes and new problems arise, the software must be modified or updated to meet these altered conditions. Or else they must be retired and decommissioned, as they are no longer fit for purpose.">
+	<meta name="twitter:description" content="Why maintainable code needs a team of three or more, and what maintainability actually looks like in practice.">
 <meta name="application-name" content="Jack Zheng">
 <meta name="apple-mobile-web-app-title" content="Jack Zheng">
 <meta name="referrer" content="no-referrer" /><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://www.jackzheng.co/start-with-three/" /><link rel="next" href="https://www.jackzheng.co/two-speed-model/" /><link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://www.jackzheng.co/start-with-three/" /><link rel="next" href="https://www.jackzheng.co/speed-vs-quality/" /><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -42,13 +38,13 @@ Software in the real world is only written to solve a problem for someone. But i
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/www.jackzheng.co\/start-with-three\/"
-        },"image": ["https:\/\/www.jackzheng.co\/cover.png"],"genre": "posts","wordcount":  951 ,
+        },"image": ["https:\/\/www.jackzheng.co\/cover.png"],"genre": "posts","keywords": "engineering-culture, maintainability","wordcount":  951 ,
         "url": "https:\/\/www.jackzheng.co\/start-with-three\/","datePublished": "2020-04-11T14:34:27+10:00","dateModified": "2026-08-02T17:45:48+03:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "Jack Zheng","logo": "https:\/\/www.jackzheng.co\/logo.png"},"author": {
                 "@type": "Person",
                 "name": "Jack Zheng"
-            },"description": ""
+            },"description": "Why maintainable code needs a team of three or more, and what maintainability actually looks like in practice."
     }
     </script></head>
     <body data-header-desktop="fixed" data-header-mobile="auto"><script>
@@ -107,7 +103,9 @@ Software in the real world is only written to solve a problem for someone. But i
                 <div class="container"><div class="toc" id="toc-auto">
             <h2 class="toc-title">Contents</h2>
             <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Start with Three</h1><div class="post-meta"><div class="post-meta-line"><i class="far fa-calendar-alt" aria-hidden="true"></i>&nbsp;<time datetime="2020-04-11">2020-04-11</time>&nbsp;<i class="fas fa-pencil-alt" aria-hidden="true"></i>&nbsp;951 words&nbsp;
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Start with Three</h1><div class="post-meta"><div class="post-meta-line">
+                    <span class="post-category">included in <a href="/categories/software/"><i class="far fa-folder" aria-hidden="true"></i>Software</a></span>
+                </div><div class="post-meta-line"><i class="far fa-calendar-alt" aria-hidden="true"></i>&nbsp;<time datetime="2020-04-11">2020-04-11</time>&nbsp;<i class="fas fa-pencil-alt" aria-hidden="true"></i>&nbsp;951 words&nbsp;
                 <i class="far fa-clock" aria-hidden="true"></i>&nbsp;5 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
@@ -196,14 +194,14 @@ Software in the real world is only written to solve a problem for someone. But i
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"></section>
+        <section class="post-tags"><i class="fas fa-tags" aria-hidden="true"></i>&nbsp;<a href="/tags/engineering-culture/">Engineering-Culture</a>,&nbsp;<a href="/tags/maintainability/">Maintainability</a></section>
         <section>
             <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
         </section>
     </div>
 
     <div class="post-nav">
-            <a href="/two-speed-model/" class="next" rel="next" title="From MVP to V1: Shifting gears in software development">From MVP to V1: Shifting gears in software development<i class="fas fa-angle-right" aria-hidden="true"></i></a></div>
+            <a href="/speed-vs-quality/" class="next" rel="next" title="Speed vs Quality">Speed vs Quality<i class="fas fa-angle-right" aria-hidden="true"></i></a></div>
 </div>
 </article></div>
             </main><footer class="footer">

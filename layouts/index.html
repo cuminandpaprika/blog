@@ -28,10 +28,15 @@
                 <div class="section-label">Recent Posts 📝</div>
                 {{- range first 3 . -}}
                     <a class="recent-posts-item" href="{{ .RelPermalink }}">
-                        <span class="recent-posts-title">{{ .Title | emojify }}</span>
-                        <span class="recent-posts-date mono">
-                            {{- $.Site.Params.dateFormat | default "2006-01-02" | .Date.Format -}}
-                        </span>
+                        <div class="recent-posts-item-header">
+                            <span class="recent-posts-title">{{ .Title | emojify }}</span>
+                            <span class="recent-posts-date mono">
+                                {{- $.Site.Params.dateFormat | default "2006-01-02" | .Date.Format -}}
+                            </span>
+                        </div>
+                        {{- with .Description -}}
+                            <p class="recent-posts-description">{{ . }}</p>
+                        {{- end -}}
                     </a>
                 {{- end -}}
             </div>

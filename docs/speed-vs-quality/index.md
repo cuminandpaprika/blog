@@ -1,4 +1,4 @@
-# From MVP to V1: Shifting gears in software development
+# Speed vs Quality
 
 
 ## How should software be built?
@@ -54,7 +54,7 @@ A few considerations:
 
 ## Conclusion
 
-Hopefully, I've helped clarify that there's no single "correct" way to build software. What's right for one team might be completely wrong for another. The optimal approach depends on the context around which the software is written. By recognizing that each company and team is a different equation to solve for, you can tailor your software-engineering practices to suit the unique constraints and goals of each organization.
+Hopefully, I've helped clarify that there's no single "correct" way to build software. What's right for one team might be completely wrong for another. The optimal approach depends on the context around which the software is written. By recognising that each company and team is a different equation to solve for, you can tailor your software-engineering practices to suit the unique constraints and goals of each organisation.
 
 
 

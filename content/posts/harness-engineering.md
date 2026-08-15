@@ -1,6 +1,9 @@
 ---
 title: "Harness Engineering"
+description: "Coding agents can already out-produce most engineers on raw code. What's left for engineers is building the harness that keeps it maintainable."
 date: 2026-08-01T00:00:00+03:00
+categories: ['software']
+tags: ["ai", "coding-agents", "harness-engineering"]
 draft: false
 ---
 
@@ -20,4 +23,4 @@ So instead of writing the code directly, as Software Engineers we're now respons
 
 ## Harness Engineering
 
-This is still a new and rapidly evolving space but we can see some companies describing what this new world could look like. OpenAI has [written about their experiments with a product with zero human-written code](https://openai.com/index/harness-engineering/). [Martin Fowler's bliki](https://martinfowler.com/articles/harness-engineering.html) also contains a treasure trove of concepts and terms authored by Birgitta Böckeler that attempt to define the taxonomy of Harness Engineering. It's possible that Harness Engineering will become yet another skill that Software Engineers will be expected to have, just like Cloud, Docker and Kubernetes became expected knowledge. Or it might become its own specialized stream of work, much like the Platform Engineering movement. One thing remains certain: the way we do Software Engineering will definitely be reshaped by how we can integrate coding agents into our workflow.
+This is still a new and rapidly evolving space but we can see some companies describing what this new world could look like. OpenAI has [written about their experiments with a product with zero human-written code](https://openai.com/index/harness-engineering/). [Martin Fowler's bliki](https://martinfowler.com/articles/harness-engineering.html) also contains a treasure trove of concepts and terms authored by Birgitta Böckeler that attempt to define the taxonomy of Harness Engineering. It's possible that Harness Engineering will become yet another skill that Software Engineers will be expected to have, just like Cloud, Docker and Kubernetes became expected knowledge. Or it might become its own specialised stream of work, much like the Platform Engineering movement. One thing remains certain: the way we do Software Engineering will definitely be reshaped by how we can integrate coding agents into our workflow.

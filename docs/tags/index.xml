@@ -12,14 +12,70 @@
 			<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
 		
 		
-			<lastBuildDate>Sun, 02 Aug 2026 18:06:42 +0300</lastBuildDate>
+			<lastBuildDate>Sun, 02 Aug 2026 17:45:48 +0300</lastBuildDate>
 		
 			<atom:link href="https://www.jackzheng.co/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Ai</title>
+				<link>https://www.jackzheng.co/tags/ai/</link>
+				<pubDate>Sat, 01 Aug 2026 00:00:00 +0300</pubDate>
+				<guid>https://www.jackzheng.co/tags/ai/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Coding-Agents</title>
+				<link>https://www.jackzheng.co/tags/coding-agents/</link>
+				<pubDate>Sat, 01 Aug 2026 00:00:00 +0300</pubDate>
+				<guid>https://www.jackzheng.co/tags/coding-agents/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Harness-Engineering</title>
+				<link>https://www.jackzheng.co/tags/harness-engineering/</link>
+				<pubDate>Sat, 01 Aug 2026 00:00:00 +0300</pubDate>
+				<guid>https://www.jackzheng.co/tags/harness-engineering/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Build-vs-Buy</title>
+				<link>https://www.jackzheng.co/tags/build-vs-buy/</link>
+				<pubDate>Thu, 28 Nov 2024 17:54:44 +0300</pubDate>
+				<guid>https://www.jackzheng.co/tags/build-vs-buy/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Open-Source</title>
+				<link>https://www.jackzheng.co/tags/open-source/</link>
+				<pubDate>Thu, 28 Nov 2024 17:54:44 +0300</pubDate>
+				<guid>https://www.jackzheng.co/tags/open-source/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Engineering-Culture</title>
+				<link>https://www.jackzheng.co/tags/engineering-culture/</link>
+				<pubDate>Thu, 11 Jan 2024 18:15:31 +0300</pubDate>
+				<guid>https://www.jackzheng.co/tags/engineering-culture/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Product-Market-Fit</title>
+				<link>https://www.jackzheng.co/tags/product-market-fit/</link>
+				<pubDate>Thu, 11 Jan 2024 18:15:31 +0300</pubDate>
+				<guid>https://www.jackzheng.co/tags/product-market-fit/</guid>
+				<description></description>
+			</item>
 			<item>
 				<title>Proof-of-Concept</title>
 				<link>https://www.jackzheng.co/tags/proof-of-concept/</link>
 				<pubDate>Thu, 11 Jan 2024 18:15:31 +0300</pubDate>
 				<guid>https://www.jackzheng.co/tags/proof-of-concept/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Maintainability</title>
+				<link>https://www.jackzheng.co/tags/maintainability/</link>
+				<pubDate>Sat, 11 Apr 2020 14:34:27 +1000</pubDate>
+				<guid>https://www.jackzheng.co/tags/maintainability/</guid>
 				<description></description>
 			</item>
 	</channel>

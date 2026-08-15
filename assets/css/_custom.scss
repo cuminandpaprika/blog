@@ -123,10 +123,7 @@
 }
 
 .recent-posts-item {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 1.5rem;
+  display: block;
   padding: 1.125rem 0;
   border-bottom: 1px solid $global-border-color;
   color: inherit;
@@ -149,6 +146,13 @@
   }
 }
 
+.recent-posts-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1.5rem;
+}
+
 .recent-posts-title {
   font-size: 1.0625rem;
   font-weight: 600;
@@ -165,6 +169,17 @@
   font-size: .75rem;
   color: $global-font-secondary-color;
   white-space: nowrap;
+
+  [theme=dark] & {
+    color: $global-font-secondary-color-dark;
+  }
+}
+
+.recent-posts-description {
+  margin: .375rem 0 0;
+  font-size: .9375rem;
+  line-height: 1.5;
+  color: $global-font-secondary-color;
 
   [theme=dark] & {
     color: $global-font-secondary-color-dark;

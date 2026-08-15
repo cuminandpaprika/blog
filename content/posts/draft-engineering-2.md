@@ -8,7 +8,7 @@ draft: true
 So what slows down engineering?
 - Not having a goal
   - We need a north star for teams to align around, a purpose. This means that all team members should be able to point to a single source of truth for what the goals are, and why we agreed to take certain approaches. 
-  - Most importantly, this should include things we've decided not to solve. The best way to achieve a goal is to only do the things that MUST be done to ensure it's actualization.
+  - Most importantly, this should include things we've decided not to solve. The best way to achieve a goal is to only do the things that MUST be done to ensure it's actualisation.
 - Solving problems that don't need to be solved
   - The best way to 
 - Alignment
@@ -37,7 +37,7 @@ So what tools do we need to do the above?
 
 - First we capture the idea, by understanding who will be using the things we create.
   - This takes the form of user research and interviews. 
-  - Human centered design.
+  - Human centred design.
 - Once we've gained insight into a set of problems or jobs to be done, we can express these as user stories
   - As a human being, I would like to have access to fresh water so that I can be hydrated every day.
 - Next we need to formulate our proposed solution to the problem. This can be captured in SYSL as a use-case
