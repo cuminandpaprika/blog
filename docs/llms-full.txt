@@ -1,6 +1,6 @@
 # Jack Zheng
 
-> Jack Zheng is a Staff Software Engineer with 7+ years building backend systems in Go, focused on fraud, fintech and e-commerce.
+> Jack Zheng is a Staff Engineer building real-time fraud and fintech systems in Go, GCP and AWS — with a growing focus on systems thinking and AI-assisted engineering.
 
 ---
 

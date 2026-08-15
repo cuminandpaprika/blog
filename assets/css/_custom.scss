@@ -277,6 +277,12 @@
   p {
     margin: 0 0 1.125rem;
   }
+
+  a {
+    text-decoration: underline;
+    text-decoration-color: currentColor;
+    text-underline-offset: .15em;
+  }
 }
 
 .about-focus-areas {

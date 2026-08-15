@@ -1,13 +1,17 @@
 # About
 
-7+ years building backend systems, 4+ of them in Go, with a focus on fraud, fintech and e-commerce.
+Hi, I'm Jack and I love to build things. I've been building things ever since I can remember: Lego as a 5-year-old, electronics during my Masters, and most recently, shipping code and distributed systems 🚀.
 
-I'm currently building fraud detection systems at [Mozn](https://www.mozn.sa/) in Riyadh, Saudi Arabia. Alumni of University of Melbourne.
+Currently, I'm a Staff Software Engineer at [Mozn](https://www.mozn.sa/), helping shape the [Focal](https://getfocal.ai/) fraud-prevention platform, pathfinding the technologies and architecture we need to stop fraudsters in 50ms ⚡.
 
-I’ve been building things ever since I can remember, from Lego Blocks as a 5 year old to cities in Sim City 4, and now mostly backend systems in Go.
+My coding journey started in high school, when I wrote a game called Cupcake Ninja in Visual Basic. I was probably already hooked then, but I decided not to pursue a career in programming, probably because my mental image was of people wearing hoodies coding in a dark room (turns out that was fairly accurate 😅).
 
-Along the way I’ve helped launch a Cube Sat at Melbourne Space Program and built mission-critical onboarding systems at Australia’s largest bank.
+Then I worked for an IoT startup, Mystic Pants, while I was studying my Masters and discovered Amazon Web Services. I was mostly doing hardware design and embedded software, but the company needed everyone to get their AWS Developer Associate certification, so that we could become an AWS Partner. That was when I discovered the endlessly fascinating world of load balancers, CDNs and serverless functions ☁️. That's when I realised I wanted to build software systems.
 
-I'm fascinated by software craftsmanship, design, cooking, engineering philosophy and cloudy things ☁️. Looking to find the perfect cup of coffee ☕.
+Along the way I’ve helped launch a Cube Sat 🛰️ at [Melbourne Space Program](https://www.melbournespace.com.au/) and built mission-critical onboarding systems at [ANZ Plus](https://www.anz.com.au/plus/) 🏦.
+
+I'm fascinated by software craftsmanship, systems thinking, and agentic engineering 🤖.
+
+Looking to find the perfect cup of coffee ☕.
 
 
