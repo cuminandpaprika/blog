@@ -57,4 +57,4 @@ Disallow: /
 User-agent: ZoominfoBot
 Disallow: /
 
-Sitemap: https://www.jackzheng.co/sitemap.xml
+Sitemap: {{ "/sitemap.xml" | absLangURL }}

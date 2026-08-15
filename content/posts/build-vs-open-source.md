@@ -3,7 +3,7 @@ title: "Build vs Open-Source"
 description: "A framework for deciding when to adopt an open-source solution, and when you've outgrown it."
 date: 2024-11-28T17:54:44+03:00
 categories: ['software']
-tags: ["open-source", "build-vs-buy"]
+tags: ["Open Source", "Build vs Buy"]
 draft: false
 ---
 

@@ -3,7 +3,7 @@ title: "Start with Three"
 description: "Why maintainable code needs a team of three or more, and what maintainability actually looks like in practice."
 date: 2020-04-11T14:34:27+10:00
 categories: ['software']
-tags: ["engineering-culture", "maintainability"]
+tags: ["Engineering Culture", "Maintainability"]
 draft: false
 aliases:
   - /2020/04/start-with-three/

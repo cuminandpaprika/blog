@@ -3,7 +3,7 @@ title: "Harness Engineering"
 description: "Coding agents can already out-produce most engineers on raw code. What's left for engineers is building the harness that keeps it maintainable."
 date: 2026-08-01T00:00:00+03:00
 categories: ['software']
-tags: ["agentic-engineering", "coding-agents", "harness-engineering"]
+tags: ["Agentic Engineering", "Coding Agents", "Harness Engineering"]
 draft: false
 ---
 

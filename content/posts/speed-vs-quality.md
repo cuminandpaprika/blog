@@ -3,7 +3,7 @@ title: "Speed vs Quality"
 description: "Before product-market fit, optimise for speed. After it, optimise for quality. A framework for shifting your engineering practices as your product matures."
 date: 2024-01-11T18:15:31+03:00
 categories: ['software']
-tags: ["proof-of-concept", "product-market-fit", "engineering-culture"]
+tags: ["Proof of Concept", "Product Market Fit", "Engineering Culture"]
 draft: false
 ---
 
