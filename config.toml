@@ -75,6 +75,7 @@ unsafe = true
   [params.header]
     [params.header.title]
       name = "Jack Zheng"
+      logo = "/images/logo-mark.svg"
 
   [params.footer]                                        #### Footer Info
     since = 2020
@@ -83,10 +84,8 @@ unsafe = true
 
   [params.home]
     [params.home.profile]
-      avatarURL = "/static/images/avatar.jpeg"
-      gravatarEmail = ""
-      subtitle = "Hi, I'm Jack. I like to build things"
-      typeit = false
+      title = "STAFF SOFTWARE ENGINEER · GO / BACKEND 🚀"
+      subtitle = "Building fraud detection systems in Go — fintech, e-commerce, and the occasional cloud metaphor."
     [params.home.posts]
       paginate = 6
 

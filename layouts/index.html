@@ -1,0 +1,40 @@
+{{- define "content" -}}
+    {{- $profile := .Site.Params.home.profile -}}
+
+    <div class="page home">
+        <div class="site-hero">
+            <div class="site-hero-banner">
+                <img src="/images/network-banner.png" alt="" />
+            </div>
+            <div class="site-hero-content">
+                {{- with $profile.title -}}
+                    <div class="site-hero-kicker mono">{{ . | emojify }}</div>
+                {{- end -}}
+                <h1 class="site-hero-title">{{ .Site.Title }}</h1>
+                {{- with $profile.subtitle -}}
+                    <p class="site-hero-subtitle">{{ . | emojify }}</p>
+                {{- end -}}
+            </div>
+        </div>
+
+        {{- $posts := where .Site.RegularPages "Type" "posts" -}}
+        {{- if .Site.Params.page.hiddenFromHomePage -}}
+            {{- $posts = where $posts "Params.hiddenfromhomepage" false -}}
+        {{- else -}}
+            {{- $posts = where $posts "Params.hiddenfromhomepage" "!=" true -}}
+        {{- end -}}
+        {{- with $posts -}}
+            <div class="recent-posts">
+                <div class="section-label">Recent Posts 📝</div>
+                {{- range first 3 . -}}
+                    <a class="recent-posts-item" href="{{ .RelPermalink }}">
+                        <span class="recent-posts-title">{{ .Title | emojify }}</span>
+                        <span class="recent-posts-date mono">
+                            {{- $.Site.Params.dateFormat | default "2006-01-02" | .Date.Format -}}
+                        </span>
+                    </a>
+                {{- end -}}
+            </div>
+        {{- end -}}
+    </div>
+{{- end -}}

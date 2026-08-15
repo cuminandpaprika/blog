@@ -1,0 +1,61 @@
+{{- define "title" }}{{ .Title }} - {{ .Site.Title }}{{ end -}}
+
+{{- define "content" -}}
+    {{- $params := .Scratch.Get "params" -}}
+
+    <div class="page single">
+        <article class="about-page">
+            <div class="about-sidebar">
+                {{- with .Params.avatar -}}
+                    <svg width="0" height="0" style="position:absolute;">
+                        <defs>
+                            <clipPath id="hex-avatar-clip" clipPathUnits="objectBoundingBox">
+                                <path d="M 0.5778 0.0452 L 0.8522 0.2048 Q 0.9300 0.2500 0.9300 0.3400 L 0.9300 0.6600 Q 0.9300 0.7500 0.8522 0.7952 L 0.5778 0.9548 Q 0.5000 1.0000 0.4222 0.9548 L 0.1478 0.7952 Q 0.0700 0.7500 0.0700 0.6600 L 0.0700 0.3400 Q 0.0700 0.2500 0.1478 0.2048 L 0.4222 0.0452 Q 0.5000 0.0000 0.5778 0.0452 Z" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    <div class="about-avatar">
+                        {{- dict "Src" . "Alt" $.Site.Title | partial "plugin/img.html" -}}
+                    </div>
+                {{- end -}}
+                <div class="about-links">
+                    {{- with .Params.company -}}
+                        <a href="{{ $.Params.companyLink }}" target="_blank" rel="noopener noreffer">
+                            <span>🏢</span>{{ . }}{{ with $.Params.location }}, {{ . }}{{ end }}
+                        </a>
+                    {{- end -}}
+                    {{- with .Site.Params.social.linkedin -}}
+                        <a href="https://www.linkedin.com/in/{{ . }}" target="_blank" rel="noopener noreffer">
+                            <span>🔗</span>LinkedIn
+                        </a>
+                    {{- end -}}
+                    {{- with .Site.Params.social.github -}}
+                        <a href="https://github.com/{{ . }}" target="_blank" rel="noopener noreffer">
+                            <span>💻</span>GitHub
+                        </a>
+                    {{- end -}}
+                </div>
+            </div>
+
+            <div>
+                {{- with .Params.kicker -}}
+                    <div class="about-kicker mono">{{ . | emojify }}</div>
+                {{- end -}}
+                <h1 class="about-heading">{{ (.Params.heading | default .Title) | emojify }}</h1>
+
+                <div class="about-prose">
+                    {{- dict "Content" .Content "Ruby" $params.ruby "Fraction" $params.fraction "Fontawesome" $params.fontawesome | partial "function/content.html" | safeHTML -}}
+                </div>
+
+                {{- with .Params.skills -}}
+                    <div class="section-label" style="margin-top:2.75rem;">Focus Areas 🛠️</div>
+                    <div class="about-focus-areas">
+                        {{- range . -}}
+                            <span class="about-focus-area">{{ . }}</span>
+                        {{- end -}}
+                    </div>
+                {{- end -}}
+            </div>
+        </article>
+    </div>
+{{- end -}}

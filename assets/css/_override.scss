@@ -1,0 +1,68 @@
+// ==============================
+// Override Variables
+// Site revamp: IBM Plex Sans/Mono, warm cream/zinc palette, orange accent
+// ==============================
+
+// ========== Global ========== //
+$global-font-family: 'IBM Plex Sans', system-ui, -apple-system, Segoe UI, Roboto, Emoji, Helvetica, Arial, sans-serif;
+$global-font-size: 16px;
+$global-font-weight: 400;
+$global-line-height: 1.6rem;
+
+$global-background-color: #fafaf8;
+$global-background-color-dark: #18181b;
+
+$global-font-color: #18181b;
+$global-font-color-dark: #e7e5e1;
+
+$global-font-secondary-color: #57534e;
+$global-font-secondary-color-dark: #a8a29e;
+
+$global-link-color: #18181b;
+$global-link-color-dark: #e7e5e1;
+
+$global-link-hover-color: #ea580c;
+$global-link-hover-color-dark: #fb923c;
+
+$global-border-color: #e7e5e1;
+$global-border-color-dark: #33322e;
+// ========== Global ========== //
+
+// ========== Header ========== //
+$header-title-font-family: $global-font-family;
+
+$header-background-color: #fafaf8;
+$header-background-color-dark: #18181b;
+
+$header-hover-color: #ea580c;
+$header-hover-color-dark: #fb923c;
+
+$search-background-color: #f0efeb;
+$search-background-color-dark: #242427;
+// ========== Header ========== //
+
+// ========== Single Content ========== //
+$single-link-color: #ea580c;
+$single-link-color-dark: #fb923c;
+
+$single-link-hover-color: #c2410c;
+$single-link-hover-color-dark: #fdba74;
+
+$table-background-color: #fff;
+$table-background-color-dark: #202023;
+
+$table-thead-color: #f0efeb;
+$table-thead-color-dark: #242427;
+// ========== Single Content ========== //
+
+// ========== Pagination ========== //
+$pagination-link-color: #ea580c;
+$pagination-link-color-dark: #fb923c;
+
+$pagination-link-hover-color: #c2410c;
+$pagination-link-hover-color-dark: #fdba74;
+// ========== Pagination ========== //
+
+// ========== Code ========== //
+$code-font-family: 'IBM Plex Mono', Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+// ========== Code ========== //
