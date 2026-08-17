@@ -8,6 +8,7 @@
 
 ## Posts
 
+- [Put the Burden on the LLM](https://www.jackzheng.co/put-the-burden-on-the-llm/index.md): Optimize your workflows to make the LLM do the hard work.
 - [Harness Engineering](https://www.jackzheng.co/harness-engineering/index.md): Coding agents can already out-produce most engineers on raw code. What's left for engineers is building the harness that keeps it maintainable.
 - [Build vs Open-Source](https://www.jackzheng.co/build-vs-open-source/index.md): A framework for deciding when to adopt an open-source solution, and when you've outgrown it.
 - [Speed vs Quality](https://www.jackzheng.co/speed-vs-quality/index.md): Before product-market fit, optimise for speed. After it, optimise for quality. A framework for shifting your engineering practices as your product matures.

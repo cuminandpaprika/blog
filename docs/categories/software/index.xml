@@ -16,6 +16,13 @@
 		
 			<atom:link href="https://www.jackzheng.co/categories/software/index.xml" rel="self" type="application/rss+xml" />
 			<item>
+				<title>Put the Burden on the LLM</title>
+				<link>https://www.jackzheng.co/put-the-burden-on-the-llm/</link>
+				<pubDate>Sat, 15 Aug 2026 00:00:00 +0300</pubDate>
+				<guid>https://www.jackzheng.co/put-the-burden-on-the-llm/</guid>
+				<description>&lt;h1 id=&#34;attention-is-all-you-need&#34;&gt;Attention is all you need&lt;/h1&gt;&#xA;&lt;p&gt;The tech industry has finally realised the importance of attention. &lt;a href=&#34;https://arxiv.org/abs/1706.03762&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;Attention Is All You Need&lt;/a&gt; might actually be the most cited paper in computer science in recent years. However all the &lt;em&gt;ahem&lt;/em&gt; attention is on the wrong kind of &lt;a href=&#34;https://en.wikipedia.org/wiki/Attention_%28machine_learning%29&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;attention&lt;/a&gt;. Human attention is now more valuable than ever. Of course, social media companies such as Facebook and MySpace knew this since the early 2000s, and advertising giants such as Google realised this in a similar time frame. Now it&amp;rsquo;s time for every other industry to understand the value of human attention. It seems like everyone is grappling with the following problem:&lt;/p&gt;</description>
+			</item>
+			<item>
 				<title>Harness Engineering</title>
 				<link>https://www.jackzheng.co/harness-engineering/</link>
 				<pubDate>Sat, 01 Aug 2026 00:00:00 +0300</pubDate>

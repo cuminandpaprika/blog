@@ -3,9 +3,18 @@
         <title>Jack Zheng</title>
         <link>https://www.jackzheng.co/</link>
         <description>Jack Zheng is a Staff Engineer building real-time fraud and fintech systems in Go, GCP and AWS — with a growing focus on systems thinking and agentic engineering.</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 01 Aug 2026 00:00:00 &#43;0300</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 15 Aug 2026 00:00:00 &#43;0300</lastBuildDate>
             <atom:link href="https://www.jackzheng.co/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Put the Burden on the LLM</title>
+    <link>https://www.jackzheng.co/put-the-burden-on-the-llm/</link>
+    <pubDate>Sat, 15 Aug 2026 00:00:00 &#43;0300</pubDate>
+    <author>Jack Zheng</author>
+    <guid>https://www.jackzheng.co/put-the-burden-on-the-llm/</guid>
+    <description><![CDATA[<h1 id="attention-is-all-you-need">Attention is all you need</h1>
+<p>The tech industry has finally realised the importance of attention. <a href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreffer ">Attention Is All You Need</a> might actually be the most cited paper in computer science in recent years. However all the <em>ahem</em> attention is on the wrong kind of <a href="https://en.wikipedia.org/wiki/Attention_%28machine_learning%29" target="_blank" rel="noopener noreffer ">attention</a>. Human attention is now more valuable than ever. Of course, social media companies such as Facebook and MySpace knew this since the early 2000s, and advertising giants such as Google realised this in a similar time frame. Now it&rsquo;s time for every other industry to understand the value of human attention. It seems like everyone is grappling with the following problem:</p>]]></description>
+</item>
+<item>
     <title>Harness Engineering</title>
     <link>https://www.jackzheng.co/harness-engineering/</link>
     <pubDate>Sat, 01 Aug 2026 00:00:00 &#43;0300</pubDate>

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Put the Burden on the LLM - Jack Zheng</title><meta name="Description" content="Optimize your workflows to make the LLM do the hard work."><meta property="og:url" content="https://www.jackzheng.co/put-the-burden-on-the-llm/">
+	<meta property="og:site_name" content="Jack Zheng">
+	<meta property="og:title" content="Put the Burden on the LLM">
+	<meta property="og:description" content="Optimize your workflows to make the LLM do the hard work.">
+	<meta property="og:locale" content="en">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2026-08-15T00:00:00+03:00">
+		<meta property="article:modified_time" content="2026-08-15T00:00:00+03:00">
+		<meta property="article:tag" content="Agentic Engineering">
+		<meta property="article:tag" content="Prompt Engineering">
+		<meta property="article:tag" content="Coding Agents">
+		<meta property="og:image" content="https://www.jackzheng.co/cover.png">
+
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image" content="https://www.jackzheng.co/cover.png">
+	<meta name="twitter:title" content="Put the Burden on the LLM">
+	<meta name="twitter:description" content="Optimize your workflows to make the LLM do the hard work.">
+<meta name="application-name" content="Jack Zheng">
+<meta name="apple-mobile-web-app-title" content="Jack Zheng">
+<meta name="referrer" content="no-referrer" /><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://www.jackzheng.co/put-the-burden-on-the-llm/" /><link rel="prev" href="https://www.jackzheng.co/harness-engineering/" /><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Put the Burden on the LLM",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/www.jackzheng.co\/put-the-burden-on-the-llm\/"
+        },"image": ["https:\/\/www.jackzheng.co\/cover.png"],"genre": "posts","keywords": "Agentic Engineering, Prompt Engineering, Coding Agents","wordcount":  851 ,
+        "url": "https:\/\/www.jackzheng.co\/put-the-burden-on-the-llm\/","datePublished": "2026-08-15T00:00:00+03:00","dateModified": "2026-08-15T00:00:00+03:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@type": "Organization",
+            "name": "Jack Zheng","logo": "https:\/\/www.jackzheng.co\/logo.png"},"author": {
+                "@type": "Person",
+                "name": "Jack Zheng"
+            },"description": "Optimize your workflows to make the LLM do the hard work."
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script>
+          const query = window.matchMedia('(prefers-color-scheme: dark)');
+          function applyTheme() {
+            let theme = window.localStorage?.getItem('theme') || 'auto';
+            let isDark = theme === 'dark' || (theme === 'auto' && query.matches);
+            document.body.setAttribute('theme', isDark? 'dark' : 'light');
+            document.body.setAttribute('cfg-theme', theme);
+          }
+
+          applyTheme();
+          query.addEventListener('change', applyTheme);
+        </script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Jack Zheng"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/images/logo-mark.svg"
+        data-srcset="/images/logo-mark.svg, /images/logo-mark.svg 1.5x, /images/logo-mark.svg 2x"
+        data-sizes="auto"
+        alt="/images/logo-mark.svg"
+        title="/images/logo-mark.svg" />Jack Zheng</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts"> Posts </a><a class="menu-item" href="/tags"> Tags </a><a class="menu-item" href="/categories"> Categories </a><a class="menu-item" href="/about"> About </a><span class="menu-item delimiter"></span><button type="button" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust" aria-hidden="true"></i>
+                </button></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Jack Zheng"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/images/logo-mark.svg"
+        data-srcset="/images/logo-mark.svg, /images/logo-mark.svg 1.5x, /images/logo-mark.svg 2x"
+        data-sizes="auto"
+        alt="/images/logo-mark.svg"
+        title="/images/logo-mark.svg" />Jack Zheng</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts" title="">Posts</a><a class="menu-item" href="/tags" title="">Tags</a><a class="menu-item" href="/categories" title="">Categories</a><a class="menu-item" href="/about" title="">About</a><button type="button" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust" aria-hidden="true"></i>
+            </button></div>
+    </div>
+</header><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Put the Burden on the LLM</h1><div class="post-meta"><div class="post-meta-line">
+                    <span class="post-category">included in <a href="/categories/software/"><i class="far fa-folder" aria-hidden="true"></i>Software</a></span>
+                </div><div class="post-meta-line"><i class="far fa-calendar-alt" aria-hidden="true"></i>&nbsp;<time datetime="2026-08-15">2026-08-15</time>&nbsp;<i class="fas fa-pencil-alt" aria-hidden="true"></i>&nbsp;851 words&nbsp;
+                <i class="far fa-clock" aria-hidden="true"></i>&nbsp;4 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
+            </div><div class="content" id="content"><h1 id="attention-is-all-you-need">Attention is all you need</h1>
+<p>The tech industry has finally realised the importance of attention. <a href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreffer ">Attention Is All You Need</a> might actually be the most cited paper in computer science in recent years. However all the <em>ahem</em> attention is on the wrong kind of <a href="https://en.wikipedia.org/wiki/Attention_%28machine_learning%29" target="_blank" rel="noopener noreffer ">attention</a>. Human attention is now more valuable than ever. Of course, social media companies such as Facebook and MySpace knew this since the early 2000s, and advertising giants such as Google realised this in a similar time frame. Now it&rsquo;s time for every other industry to understand the value of human attention. It seems like everyone is grappling with the following problem:</p>
+<blockquote>
+<p>How do we preserve the finite human attention in a sea of noise generated by AI Agents?</p>
+</blockquote>
+<h1 id="prompting">Prompting</h1>
+<p>A common way that beginners use LLMs when instructing them to complete a task is to spend 20 minutes writing an essay describing what needs to be done. This is usually after they realised that a one sentence prompt or an insufficient prompt produced absolute garbage. When you explicitly tell the LLM what to do, it&rsquo;s great at following instructions. When you don&rsquo;t give it the details, it assumes and makes decisions on your behalf. If you&rsquo;re vibe-coding a proof-of-concept, that&rsquo;s completely fine. When you want to ship code to prod, that&rsquo;s a big problem.</p>
+<p>But there are a few ways that we can improve upon essay-prompting:</p>
+<ul>
+<li>First of all, when we write huge prompts, we don&rsquo;t know what the LLM can figure out on its own.</li>
+<li>Second of all, we don&rsquo;t know what we forgot to mention in our essay, so whatever doesn&rsquo;t make it in the initial prompt will likely be assumed and decided on by the LLM.</li>
+<li>Finally, we have to think hard and use more brain power to extract the information needed for the prompt.</li>
+</ul>
+<p>What if we flip the burden and make the LLM ask us for all the questions it needs? Matt Pocock&rsquo;s <a href="https://github.com/mattpocock/skills/blob/main/skills/productivity/grilling/SKILL.md" target="_blank" rel="noopener noreffer ">grill-me</a> skill is an excellent example of how this works in practice. If we tell the LLM to first try and see what information it can find out itself, that vastly reduces the amount of input we need to provide.</p>
+<p>Here&rsquo;s an example of an exploratory prompt where we send the agent to figure out what it can and present us a list of questions, one at a time:</p>
+<div class="code-block code-line-numbers open" style="counter-reset: code-block 0">
+    <div class="code-header language-">
+        <span class="code-title"><i class="arrow fas fa-angle-right" aria-hidden="true"></i></span>
+        <span class="ellipses"><i class="fas fa-ellipsis-h" aria-hidden="true"></i></span>
+        <span class="copy" title="Copy to clipboard"><i class="far fa-copy" aria-hidden="true"></i></span>
+    </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">I want to add an in-memory cache to the foo service for the /bar API call. Check the code then /grill-me</span></span></code></pre></div></div>
+<p>It then comes back and asks you questions to clarify the design, one at a time. Now all we need to do is select from multi-choice answers and type short sentences to express our intent. This saves time and also preserves our attention for the most valuable activity that humans do these days: decision making.</p>
+<h1 id="first-review">First Review</h1>
+<p>Let&rsquo;s assume that the LLM came back with a finished implementation of your feature. How do we understand what it did and review its work? We have a few options, we can either:</p>
+<p>A. Review the code
+B. Test the implementation ourselves
+C. Ask the LLM to test it
+D. Close our eyes and ship it to prod</p>
+<p>Probably options A and C are the most reasonable. We want to look at the code if we care about it. We also want to verify it works, but we can use a new agent with clean context to do that. Simon Willison writes about <a href="https://simonwillison.net/guides/agentic-engineering-patterns/agentic-manual-testing/" target="_blank" rel="noopener noreffer ">Agentic Manual Testing</a> in great detail; it works especially well for frontend testing with Playwright or the Claude Code Chrome plugin.</p>
+<h1 id="pr-review">PR Review</h1>
+<p>Okay now we&rsquo;re reasonably confident that the code matches our intent, it works and we&rsquo;re ready to get our feature merged. In the vast majority of workplaces, we still operate with the norms of pre-AI: Agentic coding tools use a human&rsquo;s git credentials. Code must be reviewed by another human before merge. So how do we make this process easier for our teammates?</p>
+<p>Personally, I&rsquo;ve found great success with using an extremely detailed and laborious PR template. In pre-AI days, we never would&rsquo;ve expected anyone to reasonably write up their pull request like a PhD thesis. But now that tokens are cheap and human attention is expensive, we want to reduce human effort and attention burden during the PR review as much as possible.</p>
+<p>So we ask the LLM to justify to a reviewer why this change is necessary, what were the decisions, what are the risks introduced by this change. By surfacing this information, the goal is to lift out the important information relating to a change and make it easy for a reviewer to see it at a glance.</p>
+<p>Here&rsquo;s the general structure of a PR template that&rsquo;s been working well for my team:</p>
+<div class="code-block code-line-numbers open" style="counter-reset: code-block 0">
+    <div class="code-header language-">
+        <span class="code-title"><i class="arrow fas fa-angle-right" aria-hidden="true"></i></span>
+        <span class="ellipses"><i class="fas fa-ellipsis-h" aria-hidden="true"></i></span>
+        <span class="copy" title="Copy to clipboard"><i class="far fa-copy" aria-hidden="true"></i></span>
+    </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"># Why
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Why is this change necessary?
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Ticket: XXX-1234
+</span></span><span class="line"><span class="cl">Risk: Low/Medium/High
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># What
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">&gt; Toggle List of changes, so we present information with correct levels of descending abstraction.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># Decisions
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">- A list of decisions made during the implementation of this change
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># Risks and things to scrutinise
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">- List out all the high risk areas or controversial decisions.</span></span></code></pre></div></div>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2026-08-15</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/put-the-burden-on-the-llm/index.md" target="_blank">Read Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags" aria-hidden="true"></i>&nbsp;<a href="/tags/agentic-engineering/">Agentic Engineering</a>,&nbsp;<a href="/tags/prompt-engineering/">Prompt Engineering</a>,&nbsp;<a href="/tags/coding-agents/">Coding Agents</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/harness-engineering/" class="prev" rel="prev" title="Harness Engineering"><i class="fas fa-angle-left" aria-hidden="true"></i>Harness Engineering</a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.163.3">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.3.1-DEV"><i class="far fa-kiss-wink-heart" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright" aria-hidden="true"></i><span itemprop="copyrightYear">2020 - 2026</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Jack Zheng</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up" aria-hidden="true"></i>
+            </a>
+        </div>
+
+        <div id="fixed-buttons-hidden"><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment" aria-hidden="true"></i>
+            </a>
+        </div><script src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script>window.config={"comment":{}};</script><script src="/js/theme.min.js"></script><script>
+            var doNotTrack = false;
+            if ( false ) {
+                var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+                var doNotTrack = (dnt == "1" || dnt == "yes");
+            }
+            if (!doNotTrack) {
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-RQNN5TQ173');
+            }
+        </script><script src="https://www.googletagmanager.com/gtag/js?id=G-RQNN5TQ173" async></script></body>
+</html>
