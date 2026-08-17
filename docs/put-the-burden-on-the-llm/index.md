@@ -70,3 +70,7 @@ Risk: Low/Medium/High
 
 ```
 
+# Conclusion
+
+We're really only scratching the surface of the types of use-cases that LLMs are well suited for. We need to keep in mind the theory of constraints: if we automate and increase the throughput of one part of the system, we need to do the same thing downstream. Humans don't scale like LLMs do; if a human needs to keep up with machines, that's a recipe for disaster. This philosophy doesn't just apply to coding agents — when we bake LLMs into any product, we want to ensure that we fully automate a process end-to-end. If an AI Agent performs a task on a user's behalf, it should also verify the work and present this in an easy-to-digest, easy-to-review format.
+
