@@ -27,7 +27,8 @@
                             <div class="posts-list-title">
                                 <a href="{{ .RelPermalink }}">{{ .Title | emojify }}</a>
                             </div>
-                            {{- with .Summary | plainify | htmlUnescape -}}
+                            {{- $excerpt := .Summary | replaceRE `(?s)<h[1-6][^>]*>.*?</h[1-6]>` "" | plainify | htmlUnescape | strings.TrimSpace -}}
+                            {{- with $excerpt -}}
                                 <div class="posts-list-excerpt">{{ . }}</div>
                             {{- end -}}
                             {{- with .Params.tags -}}
