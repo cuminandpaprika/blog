@@ -15,7 +15,7 @@ skills:
   - "Fintech"
   - "Systems Thinking"
   - "Agentic Engineering"
-description: "Jack Zheng is a Staff Software Engineer at Mozn, building real-time fraud and fintech systems in Go, GCP and AWS — with a growing focus on systems thinking and agentic engineering."
+description: "Jack Zheng is a Staff Software Engineer at Mozn, building fraud and fintech systems in Go, GCP and AWS, focused on systems thinking and agentic engineering."
 ---
 Hi, I'm Jack and I love to build things. I've been building things ever since I can remember: Lego as a 5-year-old, electronics during my Masters, and most recently, shipping code and distributed systems 🚀.
 

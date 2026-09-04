@@ -63,7 +63,7 @@ unsafe = true
 
 [params]
   defaultTheme = "auto"                                   # site default theme ["auto", "light", "dark"]
-  description = "Jack Zheng is a Staff Engineer building real-time fraud and fintech systems in Go, GCP and AWS — with a growing focus on systems thinking and agentic engineering."
+  description = "Jack Zheng is a Staff Software Engineer at Mozn, building fraud and fintech systems in Go, GCP and AWS, focused on systems thinking and agentic engineering."
   images = ["/cover.png"]                                 # site image for Open Graph / Twitter Cards (was unset before - no link previews had an image)
   gitRepo = "https://github.com/cuminandpaprika/blog"
 

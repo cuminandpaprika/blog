@@ -1,6 +1,6 @@
 ---
 title: "Put the Burden on the LLM"
-description: "Optimize your workflows to make the LLM do the hard work."
+description: "Optimise your workflows to make the LLM do the hard work."
 date: 2026-08-15T00:00:00+03:00
 categories: ['software']
 tags: ["Agentic Engineering", "Prompt Engineering", "Coding Agents"]
