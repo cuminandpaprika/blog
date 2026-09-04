@@ -89,12 +89,18 @@ class Theme {
         Util.forEach(document.getElementsByClassName('theme-switch'), $themeSwitch => {
             $themeSwitch.addEventListener('click', () => {
                 const cfgTheme = document.body.getAttribute('cfg-theme');
-                const theme = document.body.getAttribute('theme');
+                const currentIsDark = document.body.getAttribute('theme') === 'dark';
 
                 const themes = ['auto', 'light' ,'dark'];
-                const newTheme = themes[(themes.indexOf(cfgTheme) + 1) % themes.length];
+                const resolveIsDark = theme => theme === 'dark' || (theme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches);
 
-                this.isDark = newTheme === 'dark' || (newTheme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+                // Skip a step if it wouldn't change the visible theme, so every click has a visible effect
+                let newTheme = themes[(themes.indexOf(cfgTheme) + 1) % themes.length];
+                if (resolveIsDark(newTheme) === currentIsDark) {
+                    newTheme = themes[(themes.indexOf(newTheme) + 1) % themes.length];
+                }
+
+                this.isDark = resolveIsDark(newTheme);
                 document.body.setAttribute('theme', this.isDark ? 'dark' : 'light');
                 document.body.setAttribute('cfg-theme', newTheme);
                 window.localStorage?.setItem('theme', newTheme);

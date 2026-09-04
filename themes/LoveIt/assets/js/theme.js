@@ -130,10 +130,16 @@ var Theme = /*#__PURE__*/function () {
         $themeSwitch.addEventListener('click', function () {
           var _window$localStorage;
           var cfgTheme = document.body.getAttribute('cfg-theme');
-          var theme = document.body.getAttribute('theme');
+          var currentIsDark = document.body.getAttribute('theme') === 'dark';
           var themes = ['auto', 'light', 'dark'];
+          var resolveIsDark = function resolveIsDark(theme) {
+            return theme === 'dark' || theme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches;
+          };
           var newTheme = themes[(themes.indexOf(cfgTheme) + 1) % themes.length];
-          _this2.isDark = newTheme === 'dark' || newTheme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (resolveIsDark(newTheme) === currentIsDark) {
+            newTheme = themes[(themes.indexOf(newTheme) + 1) % themes.length];
+          }
+          _this2.isDark = resolveIsDark(newTheme);
           document.body.setAttribute('theme', _this2.isDark ? 'dark' : 'light');
           document.body.setAttribute('cfg-theme', newTheme);
           (_window$localStorage = window.localStorage) === null || _window$localStorage === void 0 || _window$localStorage.setItem('theme', newTheme);
